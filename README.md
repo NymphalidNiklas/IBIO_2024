@@ -25,11 +25,11 @@ In this course we will learn in practice how to download data from GenBank, crea
 
 | Hours\Days | April 25 | April 26 | April 29 | May 2 |
 | --- | ---- | ---- | ---- | ---- |
-| 9:00-10:00 | Module outline by Charlie Cornwallis | Tutorial 1 (NW, EY) | Tutorial 6 (JR, EY) | Tutorial 9 (NW, EY) |
-| 10:00-12:00 | Introduction to alignments, different file formats (JR) | Tutorial 2 (NW, EY) | Tutorial 7 (JR, EY) | Tutorial 9 (NW, EY) (cont.) |
+| 9:00-10:00 | Module outline by Charlie Cornwallis | Tutorial 1 (NW, JR) | Tutorial 6 (NW) | Tutorial 9 (NW, JR) |
+| 10:00-12:00 | Introduction to alignments, different file formats (JR) | Tutorial 2 (NW, JR) | Tutorial 7 (JR, NW) | Tutorial 9 (NW, JR) (cont.) |
 | 12:00-13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00-14:30 | free | Tutorial 3-5 (EY, NW) | Tutorials 8 (JR, EY) | Tutorial 10 (JR, EY) |
-| 14:30-16:00 | free | Tutorial 3-5 (EY, NW) | Tutorials 8 (cont.) (JR, EY) | Tutorial 10 (cont.) (JR, EY) |
+| 13:00-14:30 | free | Tutorial 3-5 (JR, NW) | Tutorials 8 (JR, NW) | Tutorial 10 (JR, NW) |
+| 14:30-16:00 | free | Tutorial 3-5 (JR, NW) | Tutorials 8 (cont.) (JR, NW) | Tutorial 10 (cont.) (JR, NW) |
 
 <!--  -->
 

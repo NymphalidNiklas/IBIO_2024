@@ -1,5 +1,5 @@
 
-# **BIOR90 Evolutionary Biology - Methods and Applications 2023**
+# **BIOR90 Evolutionary Biology - Methods and Applications 2024**
 
 Teachers Jadranka Rota, Niklas Wahlberg, Etka Yapar, and Sridhar Halali
 
@@ -12,7 +12,7 @@ In this course we will learn in practice how to download data from GenBank, crea
 **Location:** Krypt-Raggmossan (T109), Ekologihuset, Lund University, Sölvegatan 37, 223 62 Lund
 
 <!--
-| Hours\Days | May 2 | May 3 | May 4 | May 5 |
+| Hours\Days | April 25 | April 26 | April 29 | May 2 |
 | --- | ---- | ---- | ---- | ---- |
 | 9:00-10:30 | Module outline, relevant databases (BOLD, GenBank, Darwin Tree of Life (NW, JR) | Tutorials 3-5 (JR, EY, NW) | Tutorial 6 (JR, EY) | Tutorial 8 (SH) |
 | 10:30-12:00 | Introduction to alignments, different file formats (NW) | Tutorial 3-5 (cont.) (JR, EY, NW) | Tutorial 6 (JR, EY, NW) | Tutorial 8 (SH) |
@@ -23,10 +23,10 @@ In this course we will learn in practice how to download data from GenBank, crea
 
 <!-- | 10:30-12:00 | Introduction to alignments, different file formats (NW) | Tutorial 3-5 (cont.) (JR, EY, NW) | Tutorial 7 (JR, EY, NW) | Tutorial 8 (SH, EY)(cont.) (SH) | -->
 
-| Hours\Days | May 2 | May 3 | May 4 | May 5 |
+| Hours\Days | April 25 | April 26 | April 29 | May 2 |
 | --- | ---- | ---- | ---- | ---- |
 | 9:00-10:00 | Module outline by Charlie Cornwallis | Tutorials 3-5 (JR, EY) | Tutorial 8 (JR, EY) | Tutorial 9 (NW, EY) |
-| 10:00-12:00 | Introduction to alignments, different file formats (NW) | Tutorials 3-5 (cont.) (JR, EY) | Tutorial 8 (cont.) (JR, EY) | Tutorial 9 (NW, EY) (cont.) |
+| 10:00-12:00 | Introduction to alignments, different file formats (JR) | Tutorials 3-5 (cont.) (JR, EY) | Tutorial 8 (cont.) (JR, EY) | Tutorial 9 (NW, EY) (cont.) |
 | 12:00-13:00 | Lunch | Lunch | Lunch | Lunch |
 | 13:00-14:30 | Tutorial 1 (NW, EY) | Tutorial 6 (EY, NW) | free | Tutorial 10 (JR, EY) |
 | 14:30-16:00 | Tutorial 2 (NW, EY) | Tutorial 7 (EY, NW) | free | Tutorial 10 (cont.) (JR, EY) |

@@ -12,7 +12,7 @@ In this course we will learn in practice how to download data from GenBank, crea
 **Location:** Krypt-Raggmossan (T109), Ekologihuset, Lund University, Sölvegatan 37, 223 62 Lund
 
 <!--
-| Hours\Days | April 25 | April 26 | April 29 | May 2 |
+| Hours\Days | Thursday April 25 | Friday April 26 | Monday April 29 | Thursday May 2 |
 | --- | ---- | ---- | ---- | ---- |
 | 9:00-10:30 | Module outline, relevant databases (BOLD, GenBank, Darwin Tree of Life (NW, JR) | Tutorials 3-5 (JR, EY, NW) | Tutorial 6 (JR, EY) | Tutorial 8 (SH) |
 | 10:30-12:00 | Introduction to alignments, different file formats (NW) | Tutorial 3-5 (cont.) (JR, EY, NW) | Tutorial 6 (JR, EY, NW) | Tutorial 8 (SH) |

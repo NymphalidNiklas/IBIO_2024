@@ -15,7 +15,7 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 3 | KX265095 | *Catopuma badia* | Bay Cat |
 | 4 | KP271500 | *Catopuma temminckii* | Asiatic Golden Cat |
 | 5 | U20753 | *Felis catus* | Domestic Cat |
-| 6 | NC_028307 | *Felis chaus* | Jungle Cat |
+| 6 | KP202274 | *Felis chaus* | Jungle Cat |
 | 7 | KR132580 | *Felis margarita* | Sand Cat |
 | 8 | KP202277 | *Felis nigripes* | Black-footed Cat |
 | 9 | KP202273 | *Felis silvestris bietis* | WildCat |
@@ -56,7 +56,7 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 44 | KR135743 | *Prionailurus planiceps* | Flat-headed Cat |
 | 45 | KR135744 | *Prionailurus rubiginosus* | Rusty-spotted Cat |
 | 46 | KR135742 | *Prionailurus viverrinus* | Fishing Cat |
-| 47 | NC_028299 | *Profelis aurata* | African Golden Cat |
+| 47 | KP202255 | *Profelis aurata* | African Golden Cat |
 | 48 | KP202261 | *Puma concolor* | Puma |
 | 49 | KP202279 | *Puma yagouaroundi* | Jaguarundi |
 |  | OUTGROUPS |  | 

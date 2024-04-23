@@ -35,7 +35,7 @@ We would thus like to extract regions that appear to be more easy to align from 
 
 <p align="center"><img src="./MAFFT4.png" alt="MAFFT4" width="800"></p>
 
-The first box is for a reference sequence of the region that you want to extract from your mitochondrial assembly. You can start with the file `ATP6.fasta`. The second box is for the unaligned fasta file of all the mitochondrial genomes `Felidae_MtGenomes.fasta`. Once you have chosen the relevant files, click on `Submit`.
+The first box is for a reference sequence of the region that you want to extract from your mitochondrial assembly. You can start with the file `ATP6.fasta`. The second box is for the unaligned fasta file of all the mitochondrial genomes `Felidae_MtGenomes.fasta`. Once you have chosen the relevant files, click on **Output order:** "Same as input" and **Sequence title:** "Same as input", and then click on `Submit`.
 
 Very quickly you should get back 54 sequences of **ATP6** from your mitochondrial genomes. As above, save this file as a *FASTA* file with the name `FelidaeATP6.fasta`. Now repeat this with the other three genes. You should now have 4 files:
 

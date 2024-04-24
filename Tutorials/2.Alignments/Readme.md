@@ -56,19 +56,7 @@ As you see, the majority of the changes in the nucleotide level do not change th
 
 There is a gap for all the sequences but one, which has an `n` in that position (right black rectangle). This gap column, changes the translation frame (reading frame). In a protein coding gene this is clearly not possible, therefore the `n`is wrong and most probably it is a sequencing error. Select the whole column, click on `Edit` and choose the `Delete selected` option. Pay extra attention to only delete this column and nothing else by error. Take a look at the other rectangle in the picture, there is a single gap in the middle of a protein coding gene. Here again a single gap is not possible. Replace it with an `n`. *Why is it not possible to have a single gap in this position? Why do we replace it with an `n`?* Save the **COI** file after modifying it.
 
-Before we can proceed with concatenation, we still have to modify the headers of the sequences, so that each species has an identical header in each of the gene files. E.g. in the `FelidaeATP6.fasta` file, the headers look something like this:
-
-```
->_pos=8662-9342_KP202271_Acinonyx_jubatus
-```
-
-This needs to be edited in a text editor to look like this:
-
-```
->KP202271_Acinonyx_jubatus
-```
-
-And this needs to be done in each of the four sequence files. Note also that the first sequence in the fasta file is the reference sequence. This should be deleted. Once this is done, we are ready for concatenation.
+Note that the first sequence in the fasta file is the reference sequence. This should be deleted. Once this is done, we are ready for concatenation.
 
 
 

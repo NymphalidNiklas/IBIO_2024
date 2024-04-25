@@ -71,7 +71,7 @@ Now that we located the folder, we can start using the program. We will start by
 
 If you are a Windows user and cannot successfully run the above command, try using the `\` character instead of `/`.
 
-Here,we are:
+Here, we are:
 - selecting the best-fit model for the alignment `-s ATP6_COI_CytB_ND5.phy`,
 - with its partitions (genes in this case) defined in `-p Gene_partitions.txt` file,
 - by possibly merging partitions `-m TESTMERGEONLY` to reduce over-parameterization and increase model fit. 

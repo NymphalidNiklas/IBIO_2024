@@ -1,11 +1,11 @@
 
-# **BIOR90 Evolutionary Biology - Methods and Applications 2024**
+# **IBIO Molecular Phylogenetics 2024**
 
 Teachers Jadranka Rota, Niklas Wahlberg, Etka Yapar, and Sridhar Halali
 
 ## **Introduction**
 
-In this course we will learn in practice how to download data from GenBank, create a multigene dataset, analyse the dataset using maximum likelihood and Bayesian methods, infer times of divergence, and finally use the tree to understand the evolutionary history and diversification of the group.
+In this intensive course we will introduce the basics of molecular phylogenetics, covering both theory and practice. The idea behind the course is that the student gets an overview of the actual methods and learns through hands on exercises to use some of the most popular computer programs to study the phylogeny of any group using genetic information.
 
 ## **Program**
 
@@ -23,13 +23,15 @@ In this course we will learn in practice how to download data from GenBank, crea
 
 <!-- | 10:30-12:00 | Introduction to alignments, different file formats (NW) | Tutorial 3-5 (cont.) (JR, EY, NW) | Tutorial 7 (JR, EY, NW) | Tutorial 8 (SH, EY)(cont.) (SH) | -->
 
-| Hours\Days | Thursday April 25 | Friday April 26 | Monday April 29 | Thursday May 2 |
+| Hours\Days | May 13 | May 14 | May 15 | May 16 |
 | --- | ---- | ---- | ---- | ---- |
-| 9:00-10:00 | Module outline by Charlie Cornwallis | Tutorial 1 (JR, NW) | Tutorial 6 (NW) | Tutorial 9 (JR, NW) |
-| 10:00-12:00 | Introduction to alignments, different file formats (JR) | Tutorial 2 (JR, NW) | Tutorial 7 (JR, NW) | Tutorial 9 (JR, NW) (cont.) |
-| 12:00-13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00-14:30 | free | Tutorial 3-5 (EY, JR, NW) | Tutorial 8 (EY, JR, NW) | Tutorial 10 (JR, SH) |
-| 14:30-16:00 | free | Tutorial 3-5 (EY, JR, NW) | Tutorial 8 (cont.) (EY, JR, NW) | Tutorial 10 (cont.) (JR, SH) |
+| 9:00-10:30 | Lecture 1: Introduction (NW) | Tutorial 1 (JR, NW) | Tutorial 6 (NW) | Tutorial 9 (JR, NW) |
+| 10:30-11:00 | Fika | Fika | Fika | Fika |
+| 11:00-12:30 | Lecture 2: Understanding trees and alignments (NW) | Tutorial 2 (JR, NW) | Tutorial 7 (JR, NW) | Tutorial 9 (JR, NW) (cont.) |
+| 12:30-13:30 | Lunch | Lunch | Lunch | Lunch |
+| 13:30-15:00 | free | Tutorial 3-5 (EY, JR, NW) | Tutorial 8 (EY, JR, NW) | Tutorial 10 (JR, SH) |
+| 15:00-15:30 | Fika | Fika | Fika | Fika |
+| 15:30-16:30 | free | Tutorial 3-5 (EY, JR, NW) | Tutorial 8 (cont.) (EY, JR, NW) | Tutorial 10 (cont.) (JR, SH) |
 
 <!--  -->
 

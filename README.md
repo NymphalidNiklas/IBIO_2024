@@ -67,6 +67,7 @@ Here are deposited the instructions for the assignments and exercises.
  
  (5) [Maximum likelihood methods](./Tutorials/5.MaximumLikelihood/)
  
+ <!--  
  (6) [Timing of divergence analysis](./Tutorials/6.TimingDivergence/)
  
  (7) [Tree manipulation](./Tutorials/7.TreeManipulation/)
@@ -76,7 +77,7 @@ Here are deposited the instructions for the assignments and exercises.
  (9) [Gene tree/species tree analysis](./Tutorials/11.ASTRAL/)
  
  (10) [Historical biogeography](./Tutorials/10.Biogeography/)
- 
+--> 
 
 
 ### [Programs used in the tutorials](./Software/)

@@ -13,7 +13,7 @@ Make a short report including the resulting tree. Your tree should have nodal su
 
 3) Are there any differences between the times of divergence inferred from these four genes compared to the tree you inferred in Tutorial 6)
 
-If there are differences in topology, illustrate them in the trees using FigTree as described in [Tutorial 7](../7.TreeManipulation), include all of the relevant trees in your report, and in one short paragraph describe these differences.
+If there are differences in topology, illustrate them in the trees using FigTree as described in [Tutorial 7](../Tutorials/7.TreeManipulation), include all of the relevant trees in your report, and in one short paragraph describe these differences.
 
 If you have any questions about the assignment, feel free to email us.
 

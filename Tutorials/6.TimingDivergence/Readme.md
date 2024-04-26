@@ -117,6 +117,8 @@ Instead of running this analysis on our computers, we will upload our `Felidae.x
 
 Once you have saved the parameters (and clicked on **OK** twice), you are ready to run your analysis on CIPRES, just click on `Save and Run Task`, and wait for an email to tell you it is ready! It'll take about one hour.
 
+While you're waiting for the BEAST run to complete, start working with Tutorial 7 [Tree Manipulation](../7.TreeManipulation/).
+
 ## Analysing the results with Tracer
 
 After the **BEAST** analysis is completed we will check the trace files in **Tracer**. Open **Tracer**. Drag and drop the log file created by BEAST named `*.log` into the empty space at the left side of **Tracer**'s window. You should see a trace somehow similar to this:

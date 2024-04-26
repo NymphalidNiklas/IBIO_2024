@@ -38,13 +38,13 @@ In this course we will learn in practice how to download data from GenBank, crea
 
 ## **Index**
 
-### [Course assignment]
+### [Course assignment](./Assignment/)
 
 Here you will soon find details for the pass/fail assignment that you need to complete by Friday May 3.
 
 ### [Course slides](./Lectures/)
 
-Here we will upload all the files and information shared during the lectures!
+The lecture slides can be found on Canvas.
 
 
 ### [Data used in the course](./Data/)

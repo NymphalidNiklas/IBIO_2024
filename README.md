@@ -44,7 +44,7 @@ Here you will soon find details for the pass/fail assignment that you need to co
 
 ### [Course slides](./Lectures/)
 
-Here we will upload all the files and information shared during the lectures!
+The lecture file can be found on Canvas.
 
 
 ### [Data used in the course](./Data/)

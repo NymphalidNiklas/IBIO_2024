@@ -81,7 +81,7 @@ Follow by clicking on the **Priors** tab. This tab has **a lot** of information 
 
 <p align="center"><img src="./Beast5.png" alt="Beast5" width="800"></p>
 
-Now on the bottom of the *priors* list you have the possibility of creating new priors by clicking on **Add Prior**. In order to estimate times of divergence, we need to add some information about time for at least one node. This is known as *calibration*, and can be based on fossil information, or on previous studies that have estimated a time of divergence for our clade of interest, so-called *secondary calibrations*. We will use secondary calibrations from a [published paper](https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-10-12) on mammalian divergence times, specifically their [Table 2](https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-10-12/tables/2):
+Now at the bottom of the *priors* list you have the possibility of creating new priors by clicking on **Add Prior**. In order to estimate times of divergence, we need to add some information about time for at least one node. This is known as *calibration*, and can be based on fossil information, or on previous studies that have estimated a time of divergence for our clade of interest, so-called *secondary calibrations*. We will use secondary calibrations from a [published paper](https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-10-12) on mammalian divergence times, specifically their [Table 2](https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-10-12/tables/2):
 
 | Constraint # | Clade | mean Age (95% confidence) |
 |---|---|---|

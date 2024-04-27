@@ -117,7 +117,7 @@ To do so, go to one of the mitochondrial genomes as you did at the beginning of 
 
 <p align="center"><img src="./Genbank4.png" alt="Genbank4" width="800"></p>
 
-As you can see in the red rectangle, the gene is marked as ***COX1*** and its position on the sequence is given (6060-7604). In the **CDS** section, which stands for **Coding Sequences**, you will see extra information about the gene. Try to decipher different parts of it. *Is there anything you don't understand? Ask! Why don't the tRNAs before and after have a **CDS** section?*
+As you can see in the red rectangle, the gene is marked as ***COX1*** and its position on the sequence is given (6060-7604). In the **CDS** section, which stands for **Coding Domain Sequences**, you will see extra information about the gene. Try to decipher different parts of it. *Is there anything you don't understand? Ask! Why don't the tRNAs before and after have a **CDS** section?*
 
 Now we need to download the ***COI*** (or ***COX1***) gene from the mitochondrial whole genome entry. For this click on ***gene*** or ***CDS***. It should bring you to the end of the document and highlight the corresponding sequence in the whole genome sequence. You should see this:
 

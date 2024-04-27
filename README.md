@@ -42,11 +42,11 @@ In this intensive course we will introduce the basics of molecular phylogenetics
 
 ### [Course assignment](./Assignment/)
 
-Here are the details for the pass/fail assignment that you need to complete by Friday May 2.
+Here are the details for the pass/fail assignment that you need to complete to pass the course.
 
 ### [Course slides](./Lectures/)
 
-The lecture file can be found on Canvas.
+The lecture slide files can be found here.
 
 
 ### [Data used in the course](./Data/)

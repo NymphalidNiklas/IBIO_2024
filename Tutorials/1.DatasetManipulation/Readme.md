@@ -63,7 +63,7 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 50 | KX447638 | *Prionodon pardicolor* | Spotted Linsang |
 | 51 | MW257203 | *Cryptoprocta ferox* | Fossa |
 | 52 | MW257235 | *Herpestes naso* | Long-nosed Mongoose |
-| 53 | AY873843 | *Urva javanica* | Small Asian Mongoose |
+| 53 | MN854374 | *Suricata suricatta* | Meerkat |
 | 54 | JF894376 | *Hyaena hyaena* | Striped Hyena |
 
 Pictures of the species used to generate the sequences above.

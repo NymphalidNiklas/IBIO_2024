@@ -60,8 +60,8 @@ Using a web browser, you need to navigate to the NCBI’s Genbank. Even if the [
 | 48 | KP202261 | *Puma concolor* | Puma |
 | 49 | KP202279 | *Puma yagouaroundi* | Jaguarundi |
 |  | OUTGROUPS |  | 
-| 50 | KY117547 | *Herpestes brachyurus hosei* | Short-tailed Mongoose |
-| 51 | MW019668 | *Herpestes ichneumon* | Egyptian Mongoose |
+| 50 | KX447638 | *Prionodon pardicolor* | Spotted Linsang |
+| 51 | MW257203 | *Cryptoprocta ferox* | Fossa |
 | 52 | MW257235 | *Herpestes naso* | Long-nosed Mongoose |
 | 53 | AY873843 | *Urva javanica* | Small Asian Mongoose |
 | 54 | JF894376 | *Hyaena hyaena* | Striped Hyena |

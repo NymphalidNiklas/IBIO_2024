@@ -106,5 +106,5 @@ Here you can find a list of the programs we are going to use and links to where 
  
  * [R](https://www.r-project.org/)
  
- * [ASTRAL](https://github.com/smirarab/ASTRAL)
+ * [ASTER](https://github.com/chaoszhang/ASTER)
 

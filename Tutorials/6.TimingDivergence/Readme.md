@@ -77,6 +77,8 @@ Next, click on the **Clock Model** tab. From the drop-down menu choose the `Opti
 
 <p align="center"><img src="./Beast4.png" alt="Beast4" width="800"></p>
 
+In some cases you will not see `Optimised Relaxed Clock` as an option. This is a small bug in the program that can be fixed by going to the `File` menu in **BEAUTi** and click on `Manage Packages`. Find **ORC** in the list of packages and click on `Install/Upgrade`. Now you should see the option `Optimised Relaxed Clock`.
+
 Follow by clicking on the **Priors** tab. This tab has **a lot** of information in it! How does one choose the right priors? For the most part we will rely on the default priors, but some of them we have to change. From the drop-down menu in front of the **Tree.t:ATP_COI** *prior*, select the `Birth Death Model`. By doing so we add a parameter to the model for the extinction rate. If we would choose the alternative Yule model (Yule 1925), we would assume that no extinction has ever occurred. As this seems rather unrealistic, the birth-death model (Gernhard 2008) is in most cases the more appropriate choice. We can also choose which relaxed clock model we want to use. The default is the lognormal (**ORCRates.c:ATP6_COI** = `Log Normal`), which is the model we would like to use:
 
 <p align="center"><img src="./Beast5.png" alt="Beast5" width="800"></p>

@@ -73,9 +73,9 @@ Here are deposited the instructions for the assignments and exercises.
  
  (7) [Tree manipulation](./Tutorials/7.TreeManipulation/)
  
- (8) [Diversification analysis](./Tutorials/8.Diversification/)
+ (8) [Gene tree/species tree analysis](./Tutorials/11.ASTRAL/)
  
- (9) [Gene tree/species tree analysis](./Tutorials/11.ASTRAL/)
+ (9) [Diversification or comparative analysis](./Tutorials/8.Diversification/)
  
  (10) [Historical biogeography](./Tutorials/10.Biogeography/)
 

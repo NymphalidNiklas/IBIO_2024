@@ -9,7 +9,7 @@ In this intensive course we will introduce the basics of molecular phylogenetics
 
 ## **Program**
 
-**Location:** Krypt-Raggmossan (T109), Ekologihuset, Lund University, Sölvegatan 37, 223 62 Lund
+**Location:** Maskrosen, Ekologihuset, Lund University, Sölvegatan 37, 223 62 Lund
 
 <!--
 | Hours\Days | April 25 | April 26 | April 29 | May 2 |

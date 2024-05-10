@@ -29,9 +29,9 @@ In this intensive course we will introduce the basics of molecular phylogenetics
 | 10:30-11:00 | Fika | Fika | Fika | Fika |
 | 11:00-12:00 | Lecture 2: Understanding trees and alignments (JR) | Lecture 4: Statistical frameworks for modelling in phylogenetics (ML and Bayesian) (NW) | Lecture 6: Timing of Divergence (NW) | Lecture 8: Using phylogenies - comparative methods (SH) |
 | 12:00-13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00-14:30 | Tutorial 1 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 6 (EY, JR, NW) | Tutorial 9 comparative (SH, JR, NW) |
+| 13:00-14:30 | Tutorial 1 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 6 (EY, JR, NW) | Tutorial 9 (EY, JR) |
 | 14:30-15:00 | Fika | Fika | Fika | Fika |
-| 15:00-16:30 | Tutorial 2 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 7-8 (EY, JR, NW) | Tutorial 10 biogeography (JR, SH) |
+| 15:00-16:30 | Tutorial 2 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 7-8 (EY, JR, NW) | Tutorial 10 (SH, EY) |
 
 <!--  -->
 
@@ -75,9 +75,9 @@ Here are deposited the instructions for the assignments and exercises.
  
  (8) [Gene tree/species tree analysis](./Tutorials/11.ASTRAL/)
  
- (9) [Diversification or comparative analysis](./Tutorials/8.Diversification/)
+ (9) [Historical biogeography](./Tutorials/10.Biogeography/)
  
- (10) [Historical biogeography](./Tutorials/10.Biogeography/)
+ (10) [Diversification or comparative analysis](./Tutorials/8.Diversification/)
 
 
 

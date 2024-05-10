@@ -15,12 +15,16 @@ After a couple of minutes you should have a number of files with the name `Felid
 
 <p align="center"><img src="./FigTree15trees.png" alt="15 trees" width="800"></p>
 
-The next thing to do is to copy the `Felidaeloci.treefile` file into the same directory where you have your ASTRAL program. Then go to that directory in your terminal and put in the following commands:
+The next thing to do is to copy the `Felidaeloci.treefile` file into the same directory where you have your ASTRAL-IV program. Then go to that directory in your terminal and put in the following commands:
 
 ```
-java -jar astral.5.7.8.jar -i Felidaeloci.treefile -o FelidaeASTRAL.tre 2>FelidaeASTRAL.log
+./astral4 -o FelidaeASTRAL.tre Felidaeloci.treefile
 ```
+If you are a Windows user and cannot successfully run the above command, try using the `\` character instead of `/`.
 
-Now have a look at the `FelidaeASTRAL.tre` file in **FigTree**. *Does it differ from the tree you have previously gotten when analysing concatenated data?* Have a look also at the FelidaeASTRAL.log file, it gives information about how the run has progressed.
+The command -o is used to designate the output file, which you should name `FelidaeASTRAL.tre` and this is followed by the input file `Felidaeloci.treefile`.
 
+Now have a look at the `FelidaeASTRAL.tre` file in **FigTree**. *Does it differ from the tree you have previously gotten when analysing concatenated data?*
+<!--
 **Task for the afternoon**: you can make a concatenated dataset of all 15 genes, along with a gene partition file (as you did in [Tutorial 2](../2.Alignments), and then analyse this dataset in IQ-TREE (as you did in [Tutorial 3](../3.ModelSelection) and [Tutorial 5](../5.MaximumLikelihood)).
+--!>

@@ -25,13 +25,13 @@ In this intensive course we will introduce the basics of molecular phylogenetics
 
 | Hours\Days | May 13 | May 14 | May 15 | May 16 |
 | --- | ---- | ---- | ---- | ---- |
-| 9:00-10:30 | Lecture 1: Introduction (NW) | Lecture 3: Introduction to model based methods (JR) | Lecture 5: Properties of DNA data and assessing robustness of hypotheses (JR) | Lecture 7: Using phylogenies - diversification and biogeography/comparative methods (SH) |
+| 9:00-10:30 | Lecture 1: Introduction (NW) | Lecture 3: Introduction to model based methods (JR) | Lecture 5: Properties of DNA data and assessing robustness of hypotheses (JR) | Lecture 7: Using phylogenies - comparative methods (SH) |
 | 10:30-11:00 | Fika | Fika | Fika | Fika |
-| 11:00-12:00 | Lecture 2: Understanding trees and alignments (JR) | Lecture 4: Statistical frameworks for modelling in phylogenetics (ML and Bayesian) (NW) | Lecture 6: Timing of Divergence (NW) | Tutorial 9 comparative/biogeography (SH, JR, NW) |
+| 11:00-12:00 | Lecture 2: Understanding trees and alignments (JR) | Lecture 4: Statistical frameworks for modelling in phylogenetics (ML and Bayesian) (NW) | Lecture 6: Timing of Divergence (NW) | Lecture 8: Using phylogenies - biogeography (JR) |
 | 12:00-13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00-14:30 | Tutorial 1 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 6 (EY, JR, NW) | Tutorial 9comparative/biogeography (SH, JR, NW) |
+| 13:00-14:30 | Tutorial 1 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 6 (EY, JR, NW) | Tutorial 9 comparative (SH, JR, NW) |
 | 14:30-15:00 | Fika | Fika | Fika | Fika |
-| 15:00-16:30 | Tutorial 2 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 7-8 (EY, JR, NW) | Tutorial 10 still open (JR, SH) |
+| 15:00-16:30 | Tutorial 2 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 7-8 (EY, JR, NW) | Tutorial 10 biogeography (JR, SH) |
 
 <!--  -->
 

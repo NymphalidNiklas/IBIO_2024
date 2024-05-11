@@ -29,9 +29,9 @@ In this intensive course we will introduce the basics of molecular phylogenetics
 | 10:30-11:00 | Fika | Fika | Fika | Fika |
 | 11:00-12:00 | Lecture 2: Understanding trees and alignments (JR) | Lecture 4: Statistical frameworks for modelling in phylogenetics (ML and Bayesian) (NW) | Lecture 6: Timing of Divergence (NW) | Lecture 8: Using phylogenies - comparative methods (SH) |
 | 12:00-13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00-14:30 | Tutorial 1 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 6 (EY, JR, NW) | Tutorial 9 (EY, JR) |
+| 13:00-14:30 | Tutorial 1 (EY, JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 6 (EY, JR, NW) | Tutorial 9 (EY, JR) |
 | 14:30-15:00 | Fika | Fika | Fika | Fika |
-| 15:00-16:30 | Tutorial 2 (JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 7-8 (EY, JR, NW) | Tutorial 10 (SH, EY) |
+| 15:00-16:30 | Tutorial 2 (EY, JR, NW) | Tutorial 3-5 (EY, JR, NW) | Tutorial 7-8 (EY, JR, NW) | Tutorial 10 (SH, EY) |
 
 <!--  -->
 
@@ -90,7 +90,7 @@ Here you can find a list of the programs we are going to use and links to where 
    	- **Notepad++** for Windows users
    	- **Linux** users not covered
 
- * [MAFFT](https://mafft.cbrc.jp/alignment/software/)
+ <!-- * [MAFFT](https://mafft.cbrc.jp/alignment/software/) -->
 
  * [AliView](http://www.ormbunkar.se/aliview/downloads/)
 

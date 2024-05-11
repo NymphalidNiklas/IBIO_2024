@@ -49,9 +49,13 @@ END
 
 Furthermore, we can also create a time-stratified model. We know that the position of continents and the existence of various barriers or land bridges has changed over time. This information can be incorporated into our model by using a _time periods_ file as well as _dispersal multiplier matrices_ that are different for each time period. For our dataset, we will divide our tree into three sections, going from the root of the tree: 20-5 million years ago (mya), 5-2 mya, and 2-0 mya. The file with this information is called _time periods_.
 
+Download the time_periods.txt file from [here](../../Data/Day4/Biogeography/) and save it into your working directory. Open the file in a text editor to see how it is organized. These time periods are made based on the time-calibrated tree that we inferred in Tutorial 6.
+
 We also need to decide on the maximum number of areas that one species (as well as the ancestors) is allowed to occupy in our models. Looking at our tip data, there is one species that is present in all areas and that is the domestic cat _Felis catus_. However, this species became cosmopolitan with the help of humans and it makes this analysis more difficult so we decided to remove that tip (and the associated entry from the species distribution data). Looking at all of the other species, at most they are present in two areas so we want to set the maximum number of areas to 2. That way we limit the total number of area combinations that need to be explored by the model to 16 versus 32.
 
 You can download the pruned tree without the cat tip and all the other files we will need for this tutorial from [here](../../Data/Day4/Biogeography/). 
+
+You can also download the species distribution file from [here](../../Data/Day4/Biogeography/). The file is named Felidae_biogeo_data.txt. Open the file in a text editor to see how it is organized.
 
 
 --------------------
@@ -65,28 +69,30 @@ First we should start by installing the required R package if you haven't done s
 ```R
 install.packages("rexpokit")
 install.packages("cladoRcpp")
-install.packages("devtools")
+install.packages("remotes")
 ```
 
 Then we will install BioGeoBEARS from GitHub.
 
 ```R
-devtools::install_github(repo="nmatzke/BioGeoBEARS")
+remotes::install_github(repo="nmatzke/BioGeoBEARS")
 ```
 
 If R asks you if you want to update some packages first, you can just hit enter without typing anything and it should skip updating packages.
-This installation will do try to compile some packages so it is likely that it will take some time or fail altogether. If you are stuck at this step, just ask for help and we will try to solve the problem together.
+This installation will try to compile some packages so it is likely that it will take some time or fail altogether. If you are stuck at this step, just ask for help and we will try to solve the problem together.
+
+After a successful installation, you should ***close your RStudio program and reopen it*** before we continue.
 
 
 ### Running DEC models
 
-we should start by running the following line of code by copying and pasting. This will allow you to use a wrapper function to use BioGeoBEARS in a more user friendly way.
+We should start by running the following line of code by copying and pasting. This will allow you to use a wrapper function to use BioGeoBEARS in a more user friendly way.
 
 ```R
-source("https://raw.githubusercontent.com/NymphalidNiklas/EB2_2023/main/Data/Day4/Biogeography/run_dec_f.R")
+source("https://raw.githubusercontent.com/NymphalidNiklas/EB2_2024/main/Data/Day4/Biogeography/run_dec_f.R")
 ```
 
-This wrapper function has several arguments we need to pass values to:
+This wrapper function has several arguments we need to pass values to. Have a look at the code below to get an understanding of how this works (but don't run this, this is just for clarification).
 
 ```R
 run_dec = function(treefile, ## Path to your tree file
@@ -102,61 +108,132 @@ run_dec = function(treefile, ## Path to your tree file
     )
 ```
 
-#### DEC with no time stratification
+#### Model testing to answer relevant questions
 
-The first model that we are going to run is a simple model with just one dispersal rate multiplier matrix that doesn't change over time (no time stratification as explained above). Have a look at the values in the table and think about whether they make sense given the current position of continents and the large barriers to dispersal (e.g., Sahara dessert, oceans).
+We can use BioGeoBEARS to answer specific hypotheses about our study group. In the case of cats, we could ask the question of how good the cats are at dispersal? What kind of signal is there in our data? 
 
+We can design two models, one in which dispersal between the continents doesn't depend on the geography (DEC0) and one in which we make dispersal between some continents easier than between others based on the current continet positions (DEC1). Our expectation is that dispersal for cats is much more difficult from e.g. the Nearctic to the Oriental Region than from the Nearctic to the Neotropics and this is reflected in the dispersal multiplier matrix for DEC1.
+
+Download the DEC0 and DEC1 dispersal multiplier matrices from [here](../../Data/Day4/Biogeography/) into your working directory and open them in a text editor to examine them. Do the differences between these models make sense given the current position of continents?
+
+#### Comparison of DEC0 and DEC1 models - does limiting dispersal between some continents improve model fit?
+
+Have a look at the values in the tables and think about whether they make sense given the current position of continents and the large barriers to dispersal (e.g., oceans).
+
+DEC0
+
+|    | O  | AT | PA | N  | NT |
+|----|----|----|----|----|----|
+| O  | 1  | 1  | 1  | 1  | 1  |
+| AT | 1  | 1  | 1  | 1  | 1  |
+| PA | 1  | 1  | 1  | 1  | 1  |
+| N  | 1  | 1  | 1  | 1  | 1  |
+| NT | 1  | 1  | 1  | 1  | 1  |
+
+DEC1
 
 |    | O    | AT   | PA   | N    | NT   |
 |----|------|------|------|------|------|
-| O  | 1    | 0.01 | 1    | 0.01 | 0.01 |
-| AT | 0.01 | 1    | 0.01 | 0.01 | 0.01 |
-| PA | 1    | 0.01 | 1    | 1    | 1    |
-| N  | 0.01 | 0.01 | 1    | 1    | 1    |
+| O  | 1    | 0.1  | 1    | 0.01 | 0.01 |
+| AT | 0.1  | 1    | 1    | 0.01 | 0.01 |
+| PA | 1    | 1    | 1    | 0.1  | 0.01 |
+| N  | 0.01 | 0.01 | 0.1  | 1    | 1    |
 | NT | 0.01 | 0.01 | 0.01 | 1    | 1    |
 
 
-To model DEC0, you can use the wrapper function like the example below (Assuming that you have downloaded all the required files)"
+To model DEC0, you can use the wrapper function like the example below (assuming that you have downloaded all the required files).
 
 ```R
 run_dec(treefile = "FelidaeTimes_pruned_no_F_catus.tre", geofile = "Felidae_biogeo_data.txt",
-        multiplierfile = "DEC0_dispersal_multipliers_no_time_strat.txt", maxrange = 2, timesfile = "time_periods.txt",
+        multiplierfile = "DEC0_dispersal_multipliers_no_diff.txt", maxrange = 2, timesfile = "time_periods.txt",
         resultsfile = "DEC0_result.Rdata", section=FALSE)
 ```
 
 After successfully running the code above, you should see a new file saved to your working directory named `DEC0_result.Rdata`. 
 
-#### DEC with alternative time stratification configurations
+Then repeat this for DEC1.
 
-The files that start with `DEC*_dispersal_multipliers` are the alternative time stratificaiton configurations. Can you figure out how to run three additional DEC models with the configurations DEC1, DEC2, and DEC3 using the wrapper function?
+```R
+run_dec(treefile = "FelidaeTimes_pruned_no_F_catus.tre", geofile = "Felidae_biogeo_data.txt",
+        multiplierfile = "DEC1_dispersal_multipliers_no_time.txt", maxrange = 2, timesfile = "time_periods.txt",
+        resultsfile = "DEC1_result.Rdata", section=FALSE)
+```
+
+#### DEC2 - a model with time stratification
+
+As you know, the position of continents has changed over time. Felidae is a relatively young group (we inferred the root of the tree being ca. 16 MYA) and the position of continets hasn't changed so much since then, but there are some changes and we'll explore this by adding time stratification into our models and providing different dispersal multiplier matrices for the different time periods.
+
+We will divide the time into two periods: one between 20 and 12 mya and one between 12 and 0 mya. For the most recent time period, we will use the same dispersal multipliers as in DEC1. For the older period (20-12 mya), there are several differences in the dispersal multipliers. Download the DEC2 dispersal multiplier matrix from [here](../../Data/Day4/Biogeography/) and have a look at the dispersal rate multipliers for the older period. Can you spot the differences in values between some regions? Which regions are these and why are there such differences?
+
+Let us run this final DEC model using the wrapper function.
+
+We need to specify `section=TRUE` to state that the tree will be sectioned according to our time periods.
+
+```R
+run_dec(treefile = "FelidaeTimes_pruned_no_F_catus.tre", geofile = "Felidae_biogeo_data.txt",
+        multiplierfile = "DEC2_dispersal_multipliers_time_strat.txt", maxrange = 2, timesfile = "time_periods.txt",
+        resultsfile = "DEC2_result.Rdata", section=TRUE)
+```
+
 
 ### Summarizing and visualizing the results
 
-When you run the code block has `source()` above, you should get two additional functions apart from the wrapper `run_dec()` function. These are `plot_models()` and `get_table()`. We will use these functions to compare our models. But first, we need to load the results from the results files. Assuming that you specified `resultsfile="DEC0_results.Rdata"`, `resultsfile="DEC1_results.Rdata"`, etc for DEC0, DEC1:
+When you run the code block has `source()` above, you should get two additional functions apart from the wrapper `run_dec()` function. These are `plot_models()` and `get_table()`. We will use these functions to compare our models. But first, we need to load the results from the results files. Assuming that you specified `resultsfile="DEC0_result.Rdata"`, `resultsfile="DEC1_result.Rdata"`, etc for DEC0, DEC1:
 
 ```R
-load("DEC0_results.Rdata")
+load("DEC0_result.Rdata")
 res_DEC0 = res
 
-load("DEC1_results.Rdata")
+load("DEC1_result.Rdata")
 res_DEC1 = res
 
-load("DEC2_results.Rdata")
+load("DEC2_result.Rdata")
 res_DEC2 = res
 
-load("DEC3_results.Rdata")
-res_DEC3 = res
 ```
 
 Try this:
 
 ```R
-results = list(res_DEC0, res_DEC1, res_DEC2, res_dec3)
+results = list(DEC0=res_DEC0, DEC1=res_DEC1, DEC2=res_DEC2)
 get_table(results) 
 ```
 
-To compare two models, we can do:
+you should see a table like below.
 
+```
+              d          e        lnL
+DEC0 0.03489101 0.01608103 -100.33974
+DEC1 0.10078322 0.01672941  -89.98125
+DEC2 0.10142983 0.01658964  -89.76118
+
+```
+
+Now, we can statistically compare DEC1 and DEC2 models to our DEC0 model. For this comparison we will use the AIC values. AIC stands for Akaike Information Criterio. You can read more about it [here](https://www.scribbr.com/statistics/akaike-information-criterion/#:~:text=To%20compare%20models%20using%20AIC%2C%20you%20need%20to%20calculate%20the,calculating%20log%2Dlikelihood%20is%20complicated!). Basically, if a model has an AIC value that is more than two points lower, than that model is considered better.
+
+
+```R
+LnL_2 = get_LnL_from_BioGeoBEARS_results_object(res_DEC0)
+LnL_1 = get_LnL_from_BioGeoBEARS_results_object(res_DEC1)
+
+stats = AICstats_2models(LnL_1, LnL_2, 2, 2)
+
+stats$AIC1
+stats$AIC2
+```
+
+```R
+LnL_2 = get_LnL_from_BioGeoBEARS_results_object(res_DEC0)
+LnL_1 = get_LnL_from_BioGeoBEARS_results_object(res_DEC2)
+
+stats$AIC1
+stats$AIC2
+```
+
+
+Can you change the code to compare DEC1 and DEC2? Which model is the best fit to our data?
+
+<!--
 ```R
 LnL_2 = get_LnL_from_BioGeoBEARS_results_object(res_DEC2)
 LnL_1 = get_LnL_from_BioGeoBEARS_results_object(res_DEC0)
@@ -164,12 +241,15 @@ LnL_1 = get_LnL_from_BioGeoBEARS_results_object(res_DEC0)
 stats = AICstats_2models(LnL_1, LnL_2, 2, 2)
 stats
 ```
+-->
+
 
 To plot the ancestral area resonctructions, we can use `plot_models()`:
 
 ```R
 plot_models(res_DEC0, "DEC0")
 ```
+
 
 You can also save this to a PDF file by:
 

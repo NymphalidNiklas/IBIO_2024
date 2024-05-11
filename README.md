@@ -23,7 +23,7 @@ In this intensive course we will introduce the basics of molecular phylogenetics
 
 <!-- | 10:30-12:00 | Introduction to alignments, different file formats (NW) | Tutorial 3-5 (cont.) (JR, EY, NW) | Tutorial 7 (JR, EY, NW) | Tutorial 8 (SH, EY)(cont.) (SH) | -->
 
-| Hours\Days | May 13 | May 14 | May 15 | May 16 |
+| Hours\Days | Monday May 13 | Tuesday May 14 | Wednesday May 15 | Thursday May 16 |
 | --- | ---- | ---- | ---- | ---- |
 | 9:00-10:30 | Lecture 1: Introduction (NW) | Lecture 3: Introduction to model based methods (JR) | Lecture 5: Properties of DNA data and assessing robustness of hypotheses (JR) | Lecture 7: Using phylogenies - biogeography (JR) |
 | 10:30-11:00 | Fika | Fika | Fika | Fika |

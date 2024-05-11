@@ -271,4 +271,4 @@ Questions:
 2. Are the ancestral area reconstructions the same across the different models?
 3. Can you identify some range expansions (i.e., dispersal events)?
 4. And can you identify some range extinctions, i.e. where the ancestor was widely distributed but it then went extinct in one of the ranges (range contraction)?
-5. Finally, can you identify an inferred vicariance event?
+5. Finally, why do you think that vicariance appears to not have played an important role in the evolutionary history of the cats?

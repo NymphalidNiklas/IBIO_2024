@@ -17,4 +17,4 @@ If there are differences in topology, illustrate them in the trees using FigTree
 
 If you have any questions about the assignment, feel free to email us.
 
-The report is due on Friday, May 2 by midnight, and it is being graded on the pass/fail scale.
+The report is due on Friday, May 17 by midnight, and it is being graded on the pass/fail scale.

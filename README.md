@@ -77,7 +77,7 @@ Here are deposited the instructions for the assignments and exercises.
  
  (9) [Historical biogeography](./Tutorials/Biogeography/)
  
- (10) [Comparative analysis](./Tutorials/Diversification/)
+ (10) [Comparative analysis](./Tutorials/ComparativeAnalysis/)
 
 
 

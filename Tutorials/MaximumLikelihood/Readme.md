@@ -9,7 +9,7 @@ Now that we learned how to use IQ-TREE for model and partition search, we will m
 Tree Inference is one of the most frequently used features of IQ-TREE and allows users to carry out phylogenetic analysis on a multiple sequence alignment (MSA). In the most basic case, no more than an MSA file is required to submit the job. Without further input, IQ-TREE will run with the default parameters and auto-detect the sequence type as well as the best-fitting substitution model. Additionally, Ultrafast Bootstrap ([Hoang et al., 2018](https://academic.oup.com/mbe/article/35/2/518/4565479)) and the SH-aLRT branch test ([Guindon et al., 2010](https://academic.oup.com/sysbio/article/59/3/307/1702850)) will be performed.
 
 
-Go into the iqtree folder in your terminal as you did for the [previous tutorial](../3.ModelSelection/Readme.md#Running-ModelFinder-with-IQ-TREE)
+Go into the iqtree folder in your terminal as you did for the [previous tutorial](../ModelSelection/Readme.md#Running-ModelFinder-with-IQ-TREE)
 
 
 **Command reference**

@@ -59,25 +59,25 @@ Here you will find the files we create during the course. (If at some point you 
 Here are deposited the instructions for the assignments and exercises.
 
 
- (1) [Learn to generate datasets](./Tutorials/1.DatasetManipulation/)
+ (1) [Learn to generate datasets](./Tutorials/DatasetManipulation/)
 	
- (2) [Align the gene markers](./Tutorials/2.Alignments/)
+ (2) [Align the gene markers](./Tutorials/Alignments/)
  
- (3) [Select the best evolutionary model and partitioning scheme](./Tutorials/3.ModelSelection/)
+ (3) [Select the best evolutionary model and partitioning scheme](./Tutorials/ModelSelection/)
  
- (4) [Bayesian methods](./Tutorials/4.BayesianInference/)
+ (4) [Bayesian methods](./Tutorials/BayesianInference/)
  
- (5) [Maximum likelihood methods](./Tutorials/5.MaximumLikelihood/)
+ (5) [Maximum likelihood methods](./Tutorials/MaximumLikelihood/)
  
- (6) [Timing of divergence analysis](./Tutorials/6.TimingDivergence/)
+ (6) [Timing of divergence analysis](./Tutorials/TimingDivergence/)
  
- (7) [Tree manipulation](./Tutorials/7.TreeManipulation/)
+ (7) [Tree manipulation](./Tutorials/TreeManipulation/)
  
- (8) [Gene tree/species tree analysis](./Tutorials/11.ASTRAL/)
+ (8) [Gene tree/species tree analysis](./Tutorials/ASTRAL/)
  
- (9) [Historical biogeography](./Tutorials/10.Biogeography/)
+ (9) [Historical biogeography](./Tutorials/Biogeography/)
  
- (10) [Comparative analysis](./Tutorials/8.Diversification/)
+ (10) [Comparative analysis](./Tutorials/Diversification/)
 
 
 

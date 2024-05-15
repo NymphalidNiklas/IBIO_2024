@@ -69,7 +69,7 @@ A Bayesian analysis is rather slow. In this example we are running 20 000 genera
 
 <p align="center"><img src="./CIPRES_MB.png" alt="CIPRES_MB" width="800"></p>
 
-Once you have saved the parameters (and clicked on **OK** twice), you are ready to run your analysis on CIPRES, just click on `Save and Run Task`, and wait for an email to tell you it is ready! It'll take about an hour for the analysis to finish. In the meantime, we will go through Tutorial 5, [Maximum likelihood methods](../5.MaximumLikelihood/).
+Once you have saved the parameters (and clicked on **OK** twice), you are ready to run your analysis on CIPRES, just click on `Save and Run Task`, and wait for an email to tell you it is ready! It'll take about an hour for the analysis to finish. In the meantime, we will go through Tutorial 5, [Maximum likelihood methods](../MaximumLikelihood/).
 
 When the Bayesian analysis finishes, we will check for convergence. First, we are interested in the parameter estimates from the two concurrent runs from MrBayes. These are the files that end with the extension `*.p`. We are especially interested in whether the two independent runs reached the same log likelihood. Also, the goal is that for each parameter estimate we reach ESS values > 200 (ESS stands for effective sample size and is one of the measures of convergence in a Bayesian analysis). Upload the `*.p` files into Tracer. The easiest way of doing this is to drag the `*.p` files into the upper left corner of the Tracer window that's named Trace files. Then select both trace files and in the section in the upper right choose the Trace tab.
 

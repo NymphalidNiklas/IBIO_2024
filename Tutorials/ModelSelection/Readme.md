@@ -5,7 +5,7 @@ In the first two tutorials you have learned to download sequences from Genbank a
 
 First remember that our final dataset, `ATP6_COI_CytB_ND5.phy` was formed by 4 genes and you saved it as a PHYLIP format with the extension `.phy`. Now open *Aliview* and open this file. You should have something similar to this:
 
-<p align="center"><img src="../../Tutorials/3.ModelSelection/Aliview7.png" alt="Aliview7" width="900"></p>
+<p align="center"><img src="../../Tutorials/ModelSelection/Aliview7.png" alt="Aliview7" width="900"></p>
 
 Then from the menu, select: `File`-> `Save as Nexus` and don't change the file name when saving. You should have these two files now:
 

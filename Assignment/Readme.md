@@ -3,7 +3,7 @@
 Add your name to one of the rows in this spreadsheet [here](https://docs.google.com/spreadsheets/d/1e8y_l9pQt4b9TbwULSI-mfogNJ1gUkAeGwwG09CKz5s/edit#gid=356692471). The genes marked in the row next to your name are the ones you need to analyse for the assignment.
 
 
-**Assignment** You need to make a concatenated dataset of the 4 genes that have been assigned to you, along with a gene partition file (as you did in [Tutorial 2](../Tutorials/2.Alignments)), then analyse this dataset in IQ-TREE (as you did in [Tutorial 5](../Tutorials/5.MaximumLikelihood)), and finally in BEAST (as you did in [Tutorial 6](../Tutorials/6.TimingDivergence)).
+**Assignment** You need to make a concatenated dataset of the 4 genes that have been assigned to you, along with a gene partition file (as you did in [Tutorial 2](../Tutorials/Alignments)), then analyse this dataset in IQ-TREE (as you did in [Tutorial 5](../Tutorials/MaximumLikelihood)), and finally in BEAST (as you did in [Tutorial 6](../Tutorials/TimingDivergence)).
 
 Make a short report including the resulting tree. Your tree should have nodal support shown. In your report also answer the following three questions.
 
@@ -13,7 +13,7 @@ Make a short report including the resulting tree. Your tree should have nodal su
 
 3) Are there any differences between the times of divergence inferred from these four genes compared to the tree you inferred in Tutorial 6)
 
-If there are differences in topology, illustrate them in the trees using FigTree as described in [Tutorial 7](../Tutorials/7.TreeManipulation), include all of the relevant trees in your report, and in one short paragraph describe these differences.
+If there are differences in topology, illustrate them in the trees using FigTree as described in [Tutorial 7](../Tutorials/TreeManipulation), include all of the relevant trees in your report, and in one short paragraph describe these differences.
 
 If you have any questions about the assignment, feel free to email us.
 

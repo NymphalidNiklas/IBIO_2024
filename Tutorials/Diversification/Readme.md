@@ -32,7 +32,7 @@ The necessary data for this analysis are the time-calibrated tree and the habita
 | NC\_028299\_Profelis\_aurata        | Profelis aurata           | 0      | 9.7         | 8.5         |
 | NC\_028307\_Felis\_chaus            | Felis chaus               | 0      | 8.6         | 5.4         |
 
-You can download the whole table from [here](../../Data/Day3). If you weren't able to get the timed-tree from [Tutorial 6](../6.TimingDivergence), you can get the tree from the same folder as the table.
+You can download the whole table from [here](../../Data/Day3). If you weren't able to get the timed-tree from [Tutorial 6](../TimingDivergence), you can get the tree from the same folder as the table.
 
 First we should start by installing the required R package if you haven't done so already. To do that, open RStudio (or launch R the way you normally use it) and type the following command into your console:
 

@@ -1,0 +1,635 @@
+#NEXUS
+[R-package APE, Sat Apr 06 16:51:22 2019]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 311;
+	TAXLABELS
+		A-2-KA_Myc_francisca_formosana?
+		A-7-KA_Bic_cooksoni
+		AM-97-V165_Bic_brunnea
+		AM-97-V168_Bic_jefferyi
+		AM-97-V177_Bic_auricruda_fulgida
+		AM-97-V187_Bic_smithi_smithi
+		AM-97-V189_Bic_mesogenina
+		AM-97-V234_Bic_alboplaga
+		AM-97-V909_Bic_procora
+		AM-97-W219_Bic_graueri_kota
+		AM-97-W228_Bic_hyperanthus
+		AM-97-v215_Bra_perspicua
+		AM-98-A3_Bic_anisops
+		AM-98-R016_Bic_elishiae
+		AM-98-R022_Bic_iccius
+		AM-98-R023_Bic_uniformis
+		AM-98-R036_Bic_trilophus
+		AM-98-R038_Bic_xeneas_xeneas
+		AM-98-R065_Bic_madetes_madetes
+		AM-98-R079_Bic_kenia
+		AM-98-R086_Myc_francisca_francisca?
+		AM-98-R089_Bic_ena
+		AM-98-R092_Bic_campina_campina
+		AM-98-R936_Bic_dorothea_dorothea
+		AM-98-R942_Bic_moyses
+		AM-98-R949_Bic_golo
+		AM-98-R964_Bic_technatis
+		AM-98-R987_Bic_medontias
+		AM-98-R989_Bic_sambulos_sambulos
+		AM-98-V224_Bic_sweadneri
+		AM-98-V898_Bic_persimilis
+		AM-98-V911_Bic_matuta_matuta
+		AM-98-X980_Bic_sangmelinae
+		CP10-05_Hal_halyma
+		DM-01-002_Eno_portlandia
+		EW10-5_Bic_anynana_anynana
+		EW18-6_Myd_sirius
+		EW18-8_Myd_terminus
+		EW25-20_Let_europa
+		EW25-23_Neo_bremeri
+		KA1002_Bra_phaea
+		KA1009_Bic_uzungwensis_granti
+		KA1012_Bra_peitho_gigas
+		KA1015_Het_tornado_54
+		KA1018_Het_tianae_49
+		KA1021_Het_sabas
+		KA1025_Myd_nerida
+		KA1026_Myd_biformis
+		KA1027_Myc_sudra
+		KA1034_Bic_analis
+		KA1037_Bic_pareensis
+		KA1038_Bic_aurivilli_kivuensis
+		KA1039_Bic_heathi
+		KA1043_Bic_istaris
+		KA174_Myd_arabella
+		KA175_Myd_bilineata
+		KA176_Myd_cacodaemon_cacodaemon
+		KA178_Myd_comes
+		KA179_Myd_drusillodes
+		KA181_Myd_durga
+		KA183_Myd_fulvianetta
+		KA184_Myd_giamana
+		KA187_Myd_pernotata
+		KA188_Myc_perseus_perseus
+		KA189_Myd_phidon_phidonides
+		KA190_Myd_phidon_xanthias
+		KA192_Myd_sp.nr._barbara
+		KA193_Myd_terminus
+		KA194_Myd_valeria
+		KA2008_Bic_saussurei_camerunia
+		KA2012_Bic_simulacris_simulacris
+		KA201_Bic_campa
+		KA2027_Het_parvidens
+		KA202_Bic_angulosa_angulosa
+		KA203_Bic_pavonis
+		KA2053_Het_hazovola_53
+		KA2055_Het_menamenoides_62
+		KA2062_Het_28
+		KA206_Bic_sanaos
+		KA209_Bic_taenias
+		KA210_Bic_evadne
+		KA212_Bic_dekeyseri
+		KA214_Bic_zinebi
+		KA215_Bic_larseni
+		KA217_Bic_martius
+		KA218_Bic_sambulos_unicolor
+		KA219_Bic_safitza_safitza
+		KA220_Bic_ottossoni
+		KA221_Bic_abnormis
+		KA224_Bic_sciathis
+		KA243_Myc_visala_phamis
+		KA246_Myc_orseis_nautilus
+		KA247_Tel_janardana_sagittigera
+		KA249_Myc_igoleta
+		KA251_Tel_micromeda_circella
+		KA253_Cul_tagala_venostes
+		KA254_Myd_felderi
+		KA257_Cul_mnasicles
+		KA258_Bic_lamani
+		KA260_Bic_saussurei_saussurei
+		KA265_Bra_teratia
+		KA3002_Myd_ita
+		KA3003_Cul_bisaya
+		KA3004_Loh_haasei
+		KA3006_Myd_terminus_wakolo
+		KA3008_Myc_frederici
+		KA3009_Myd_treadawayi
+		KA3010_Myd_teatus
+		KA3012_Myc_sp?
+		KA3015_Loh_tilmara
+		KA3017_Myc_wayewa
+		KA3019_Myc_horsfieldi_ssp?
+		KA3023_Myd_patiana
+		KA3025_Uni_unica
+		KA3026_Bic_subtilisurae
+		KA3027_Bic_cf.sangmelinae
+		KA3028_Bic_rhacotis
+		KA302_Bic_smithi_fernandina
+		KA3030_Bic_brakefieldi
+		KA3031_Bic_sigiussidorum
+		KA3036_Het_andasibe
+		KA3038_Loh_deianirina
+		KA3039_Loh_decipiens
+		KA3044_Bic_sambulos_cyaneus
+		KA305_Bic_feae
+		KA308_Bic_milyas
+		KA3090_Bra_eliasis
+		KA3095_Loh_umbrosa
+		KA3096_Loh_muelleri
+		KA314_Bic_sandace
+		KA401_Loh_inga
+		KA402_Myd_shiva
+		KA404_Myd_duponcheli
+		KA4053_Loh_transiens
+		KA4056_Loh_unipupillata
+		KA405_Myd_maessene
+		KA4086_Het_vertigo_61
+		KA410_Myd_fusca
+		KA478_Het_erebina
+		KA501_Het_exocellata
+		KA502_Het_antahala
+		KA503_Het_paradoxa
+		KA504_Het_lanyvary_68
+		KA505_Het_narova
+		KA506_Het_strato
+		KA507_Het_pauliani_37
+		KA508_Het_undulans_83
+		KA509_Het_harveyi_32
+		KA510_Het_viettei
+		KA511_Myc_orseis_borneensis
+		KA512_Myd_anapita
+		KA513_Myd_maianeas
+		KA514_Het_pauper
+		KA515_Myd_pitana
+		KA516_Myc_mineus_toshikoae
+		KA518_Het_oberthuerae_89
+		KA519_Het_andravahana
+		KA521_Het_avaratra_25
+		KA522_Het_westwoodi_13B
+		KA524_Het_mabillei
+		KA526_Het_anganavo
+		KA529_Het_passandava
+		KA530_Het_uniformis
+		KA534_Het_ankaratra
+		KA535_Het_imerina_22
+		KA537_Het_alaokola
+		KA541_Het_avelona
+		KA542_Het_laeta
+		KA548_Het_angulifascia
+		KA549_Het_parva
+		KA550_Het_turbans
+		KA551_Het_ankova
+		KA552_Het_kremenae_14A
+		KA554_Het_strigula
+		KA555_Het_fraterna
+		KA556_Het_barbarae_16
+		KA557_Het_obscura
+		KA558_Het_iboina
+		KA561_Het_mimetica_72
+		KA562_Het_80
+		KA563_Het_mayottensis
+		KA564_Het_narcissus_narcissus
+		KA576_Het_erebennis
+		KA578_Het_laetifica
+		KA580_Het_borgo_73
+		KA584_Het_comorana_comorana
+		KA585_Het_comorana_subrufa
+		KA586_Het_20
+		KA587_Het_pallida
+		KA591_Het_narcissus_borbonica
+		KA592_Bra_decira
+		KA603_Bic_xeneas_occidentalis
+		KA614_Bic_funebris
+		KA615_Bic_safitza_aethiops
+		KA623_Bic_mandanes
+		KA632_Bic_ephorus
+		KA633_Bic_italus
+		KA642_Bic_mollitia
+		KA644_Bic_collinsi
+		KA648_Bic_dentata
+		KA655_Bic_sylvicolus
+		KA705_Bic_hewitsoni
+		KA708_Bic_wakaensis
+		KA713_Bic_howarthi
+		KA718_Bic_albocincta
+		KA723_Bic_amieti
+		KA726_Bic_ivindo
+		KA728_Bic_dubia
+		KA729_Bic_neustetteri
+		KA733_Bic_mesogena_mesogena
+		KA737_Bic_sophrosyne_sophrosyne
+		KA739_Hal_asochis_asochis
+		KA740_Bic_nobilis
+		KA741_Tel_adolphei
+		KA742_Tel_oculus
+		KA743_Myc_igilia
+		KA744_Myc_visala_orcha
+		KA748_Myc_patnia
+		KA749_Het_drepana
+		KA750_Het_wardii
+		KA753_Het_vanewrighti_63
+		KA754_Het_maeva
+		KA755_Het_bicristata
+		KA757_Het_84
+		KA759_Het_ankoma
+		KA760_Het_vola
+		KA761_Het_subsimilis
+		KA765_Het_fuliginosa
+		KA769_Het_comorensis
+		KA771_Het_turbata
+		KA772_Bra_simonsii
+		KA804_Bic_maesseni
+		KA812_Bic_sealeae
+		KA813_Bic_choveti
+		KA816_Bic_cottrelli
+		KA817_Het_cowani
+		KA823_Loh_erna
+		KA833_Bic_vandeweghei
+		KA838_Bic_tanzanicus
+		KA841_Bic_sebetus
+		KA842_Bic_rileyi
+		KA843_Tel_sericus
+		KA844_Tel_inopia
+		KA845_Tel_misenus
+		KA847_Myc_francisca_ulia?
+		KA874_Myd_bazochii
+		KA898_Loh_dinon
+		KA949_Bic_danckelmani
+		KA965_Bic_makomensis
+		KA977_Bic_dorothea_concolour
+		KA981_Bic_jacksoni
+		NEB-1-3_Sat_eurydice
+		NW101-8_Let_mekara
+		NW118-20_Loh_anna
+		NW121-15_Let_mantara
+		NW163-10_Myd_sara
+		NW163-11_Myd_splendens_tenebrosus
+		NW163-14_Myd_richardi
+		NW163-15_Myd_biliki
+		NW163-16_Myd_splendens_guadalcanalensis
+		NW163-4_Myd_interrupta
+		NW163-5_Myd_splendens_versicolor
+		NW163-6_Myd_splendens_malaitensis
+		NW163-7_Myd_splendens_splendens
+		NW163-8_Myd_splendens_magnificans
+		NW163-9_Myd_interrupta
+		NW166-9_Eno_anthedon
+		NW169-5_Loh_hypnus
+		NW91-5_Neo_petersi
+		PM12-01_Bic_ignobilis
+		PM12-18_Bic_vulgaris
+		PM12-23_Bic_buea
+		UK1-22_Myc_anaxias_anaxias
+		UK17-24_Myc_oroatis
+		UK18-16_Myd_asophis
+		UK18-6_Myd_woxvoldi
+		UK4-11_Myc_gotama_gotama?
+		UK4-12_Myc_perseus_tabitha
+		UK4-23_Myd_itys
+		UK4-6_Tel_mausonia
+		UK4-8_Myc_mucianus_mucianus
+		UK5-12_Myd_dohertyi
+		UK5-15_Tel_megamerde_opaculus
+		UK5-16_Cul_kina/amoena
+		UK5-1_Loh_dexamaneus
+		UK5-20_Myd_mulleri
+		UK5-23_Loh_susah
+		UK5-2_Loh_imitatrix
+		UK5-5_Loh_opthalmicus
+		UK5-7_Loh_tanuki
+		UK6-11_Myc_anaxias_aemate
+		UK6-17_Myc_mineus_polydecta
+		UK6-27_Myc_perseoides
+		UK6-28_Tel_parva
+		UK6-29_Myc_intermedia_intermedia
+		UK7-13_Myc_gotama_charaka?
+		UK7-5_Tel_malsara
+		UK7-6_Myc_indermedia_distanti
+		UK9-12_Myd_mehadeva
+		UK9-13_Myd_mucia
+		UK9-15_Myc_mynois
+		UK9-18_Myd_duponcheli
+		UK9-2_Myd_aethiops
+		UK9-3_Myd_barbara
+		UK9-4_Myd_cacodaemon_bizonata
+		UK9-5_Myd_discolobus
+		UK9-9_Myd_elia
+		UKA128_Myc_francisca_sanatana/albofasciata
+		UKA145_Myc_visala_visala
+		mg35_Tel_mara
+		mg44_Myc_madjicosa_madjicosa
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	A-2-KA_Myc_francisca_formosana?,
+		2	A-7-KA_Bic_cooksoni,
+		3	AM-97-V165_Bic_brunnea,
+		4	AM-97-V168_Bic_jefferyi,
+		5	AM-97-V177_Bic_auricruda_fulgida,
+		6	AM-97-V187_Bic_smithi_smithi,
+		7	AM-97-V189_Bic_mesogenina,
+		8	AM-97-V234_Bic_alboplaga,
+		9	AM-97-V909_Bic_procora,
+		10	AM-97-W219_Bic_graueri_kota,
+		11	AM-97-W228_Bic_hyperanthus,
+		12	AM-97-v215_Bra_perspicua,
+		13	AM-98-A3_Bic_anisops,
+		14	AM-98-R016_Bic_elishiae,
+		15	AM-98-R022_Bic_iccius,
+		16	AM-98-R023_Bic_uniformis,
+		17	AM-98-R036_Bic_trilophus,
+		18	AM-98-R038_Bic_xeneas_xeneas,
+		19	AM-98-R065_Bic_madetes_madetes,
+		20	AM-98-R079_Bic_kenia,
+		21	AM-98-R086_Myc_francisca_francisca?,
+		22	AM-98-R089_Bic_ena,
+		23	AM-98-R092_Bic_campina_campina,
+		24	AM-98-R936_Bic_dorothea_dorothea,
+		25	AM-98-R942_Bic_moyses,
+		26	AM-98-R949_Bic_golo,
+		27	AM-98-R964_Bic_technatis,
+		28	AM-98-R987_Bic_medontias,
+		29	AM-98-R989_Bic_sambulos_sambulos,
+		30	AM-98-V224_Bic_sweadneri,
+		31	AM-98-V898_Bic_persimilis,
+		32	AM-98-V911_Bic_matuta_matuta,
+		33	AM-98-X980_Bic_sangmelinae,
+		34	CP10-05_Hal_halyma,
+		35	DM-01-002_Eno_portlandia,
+		36	EW10-5_Bic_anynana_anynana,
+		37	EW18-6_Myd_sirius,
+		38	EW18-8_Myd_terminus,
+		39	EW25-20_Let_europa,
+		40	EW25-23_Neo_bremeri,
+		41	KA1002_Bra_phaea,
+		42	KA1009_Bic_uzungwensis_granti,
+		43	KA1012_Bra_peitho_gigas,
+		44	KA1015_Het_tornado_54,
+		45	KA1018_Het_tianae_49,
+		46	KA1021_Het_sabas,
+		47	KA1025_Myd_nerida,
+		48	KA1026_Myd_biformis,
+		49	KA1027_Myc_sudra,
+		50	KA1034_Bic_analis,
+		51	KA1037_Bic_pareensis,
+		52	KA1038_Bic_aurivilli_kivuensis,
+		53	KA1039_Bic_heathi,
+		54	KA1043_Bic_istaris,
+		55	KA174_Myd_arabella,
+		56	KA175_Myd_bilineata,
+		57	KA176_Myd_cacodaemon_cacodaemon,
+		58	KA178_Myd_comes,
+		59	KA179_Myd_drusillodes,
+		60	KA181_Myd_durga,
+		61	KA183_Myd_fulvianetta,
+		62	KA184_Myd_giamana,
+		63	KA187_Myd_pernotata,
+		64	KA188_Myc_perseus_perseus,
+		65	KA189_Myd_phidon_phidonides,
+		66	KA190_Myd_phidon_xanthias,
+		67	KA192_Myd_sp.nr._barbara,
+		68	KA193_Myd_terminus,
+		69	KA194_Myd_valeria,
+		70	KA2008_Bic_saussurei_camerunia,
+		71	KA2012_Bic_simulacris_simulacris,
+		72	KA201_Bic_campa,
+		73	KA2027_Het_parvidens,
+		74	KA202_Bic_angulosa_angulosa,
+		75	KA203_Bic_pavonis,
+		76	KA2053_Het_hazovola_53,
+		77	KA2055_Het_menamenoides_62,
+		78	KA2062_Het_28,
+		79	KA206_Bic_sanaos,
+		80	KA209_Bic_taenias,
+		81	KA210_Bic_evadne,
+		82	KA212_Bic_dekeyseri,
+		83	KA214_Bic_zinebi,
+		84	KA215_Bic_larseni,
+		85	KA217_Bic_martius,
+		86	KA218_Bic_sambulos_unicolor,
+		87	KA219_Bic_safitza_safitza,
+		88	KA220_Bic_ottossoni,
+		89	KA221_Bic_abnormis,
+		90	KA224_Bic_sciathis,
+		91	KA243_Myc_visala_phamis,
+		92	KA246_Myc_orseis_nautilus,
+		93	KA247_Tel_janardana_sagittigera,
+		94	KA249_Myc_igoleta,
+		95	KA251_Tel_micromeda_circella,
+		96	KA253_Cul_tagala_venostes,
+		97	KA254_Myd_felderi,
+		98	KA257_Cul_mnasicles,
+		99	KA258_Bic_lamani,
+		100	KA260_Bic_saussurei_saussurei,
+		101	KA265_Bra_teratia,
+		102	KA3002_Myd_ita,
+		103	KA3003_Cul_bisaya,
+		104	KA3004_Loh_haasei,
+		105	KA3006_Myd_terminus_wakolo,
+		106	KA3008_Myc_frederici,
+		107	KA3009_Myd_treadawayi,
+		108	KA3010_Myd_teatus,
+		109	KA3012_Myc_sp?,
+		110	KA3015_Loh_tilmara,
+		111	KA3017_Myc_wayewa,
+		112	KA3019_Myc_horsfieldi_ssp?,
+		113	KA3023_Myd_patiana,
+		114	KA3025_Uni_unica,
+		115	KA3026_Bic_subtilisurae,
+		116	KA3027_Bic_cf.sangmelinae,
+		117	KA3028_Bic_rhacotis,
+		118	KA302_Bic_smithi_fernandina,
+		119	KA3030_Bic_brakefieldi,
+		120	KA3031_Bic_sigiussidorum,
+		121	KA3036_Het_andasibe,
+		122	KA3038_Loh_deianirina,
+		123	KA3039_Loh_decipiens,
+		124	KA3044_Bic_sambulos_cyaneus,
+		125	KA305_Bic_feae,
+		126	KA308_Bic_milyas,
+		127	KA3090_Bra_eliasis,
+		128	KA3095_Loh_umbrosa,
+		129	KA3096_Loh_muelleri,
+		130	KA314_Bic_sandace,
+		131	KA401_Loh_inga,
+		132	KA402_Myd_shiva,
+		133	KA404_Myd_duponcheli,
+		134	KA4053_Loh_transiens,
+		135	KA4056_Loh_unipupillata,
+		136	KA405_Myd_maessene,
+		137	KA4086_Het_vertigo_61,
+		138	KA410_Myd_fusca,
+		139	KA478_Het_erebina,
+		140	KA501_Het_exocellata,
+		141	KA502_Het_antahala,
+		142	KA503_Het_paradoxa,
+		143	KA504_Het_lanyvary_68,
+		144	KA505_Het_narova,
+		145	KA506_Het_strato,
+		146	KA507_Het_pauliani_37,
+		147	KA508_Het_undulans_83,
+		148	KA509_Het_harveyi_32,
+		149	KA510_Het_viettei,
+		150	KA511_Myc_orseis_borneensis,
+		151	KA512_Myd_anapita,
+		152	KA513_Myd_maianeas,
+		153	KA514_Het_pauper,
+		154	KA515_Myd_pitana,
+		155	KA516_Myc_mineus_toshikoae,
+		156	KA518_Het_oberthuerae_89,
+		157	KA519_Het_andravahana,
+		158	KA521_Het_avaratra_25,
+		159	KA522_Het_westwoodi_13B,
+		160	KA524_Het_mabillei,
+		161	KA526_Het_anganavo,
+		162	KA529_Het_passandava,
+		163	KA530_Het_uniformis,
+		164	KA534_Het_ankaratra,
+		165	KA535_Het_imerina_22,
+		166	KA537_Het_alaokola,
+		167	KA541_Het_avelona,
+		168	KA542_Het_laeta,
+		169	KA548_Het_angulifascia,
+		170	KA549_Het_parva,
+		171	KA550_Het_turbans,
+		172	KA551_Het_ankova,
+		173	KA552_Het_kremenae_14A,
+		174	KA554_Het_strigula,
+		175	KA555_Het_fraterna,
+		176	KA556_Het_barbarae_16,
+		177	KA557_Het_obscura,
+		178	KA558_Het_iboina,
+		179	KA561_Het_mimetica_72,
+		180	KA562_Het_80,
+		181	KA563_Het_mayottensis,
+		182	KA564_Het_narcissus_narcissus,
+		183	KA576_Het_erebennis,
+		184	KA578_Het_laetifica,
+		185	KA580_Het_borgo_73,
+		186	KA584_Het_comorana_comorana,
+		187	KA585_Het_comorana_subrufa,
+		188	KA586_Het_20,
+		189	KA587_Het_pallida,
+		190	KA591_Het_narcissus_borbonica,
+		191	KA592_Bra_decira,
+		192	KA603_Bic_xeneas_occidentalis,
+		193	KA614_Bic_funebris,
+		194	KA615_Bic_safitza_aethiops,
+		195	KA623_Bic_mandanes,
+		196	KA632_Bic_ephorus,
+		197	KA633_Bic_italus,
+		198	KA642_Bic_mollitia,
+		199	KA644_Bic_collinsi,
+		200	KA648_Bic_dentata,
+		201	KA655_Bic_sylvicolus,
+		202	KA705_Bic_hewitsoni,
+		203	KA708_Bic_wakaensis,
+		204	KA713_Bic_howarthi,
+		205	KA718_Bic_albocincta,
+		206	KA723_Bic_amieti,
+		207	KA726_Bic_ivindo,
+		208	KA728_Bic_dubia,
+		209	KA729_Bic_neustetteri,
+		210	KA733_Bic_mesogena_mesogena,
+		211	KA737_Bic_sophrosyne_sophrosyne,
+		212	KA739_Hal_asochis_asochis,
+		213	KA740_Bic_nobilis,
+		214	KA741_Tel_adolphei,
+		215	KA742_Tel_oculus,
+		216	KA743_Myc_igilia,
+		217	KA744_Myc_visala_orcha,
+		218	KA748_Myc_patnia,
+		219	KA749_Het_drepana,
+		220	KA750_Het_wardii,
+		221	KA753_Het_vanewrighti_63,
+		222	KA754_Het_maeva,
+		223	KA755_Het_bicristata,
+		224	KA757_Het_84,
+		225	KA759_Het_ankoma,
+		226	KA760_Het_vola,
+		227	KA761_Het_subsimilis,
+		228	KA765_Het_fuliginosa,
+		229	KA769_Het_comorensis,
+		230	KA771_Het_turbata,
+		231	KA772_Bra_simonsii,
+		232	KA804_Bic_maesseni,
+		233	KA812_Bic_sealeae,
+		234	KA813_Bic_choveti,
+		235	KA816_Bic_cottrelli,
+		236	KA817_Het_cowani,
+		237	KA823_Loh_erna,
+		238	KA833_Bic_vandeweghei,
+		239	KA838_Bic_tanzanicus,
+		240	KA841_Bic_sebetus,
+		241	KA842_Bic_rileyi,
+		242	KA843_Tel_sericus,
+		243	KA844_Tel_inopia,
+		244	KA845_Tel_misenus,
+		245	KA847_Myc_francisca_ulia?,
+		246	KA874_Myd_bazochii,
+		247	KA898_Loh_dinon,
+		248	KA949_Bic_danckelmani,
+		249	KA965_Bic_makomensis,
+		250	KA977_Bic_dorothea_concolour,
+		251	KA981_Bic_jacksoni,
+		252	NEB-1-3_Sat_eurydice,
+		253	NW101-8_Let_mekara,
+		254	NW118-20_Loh_anna,
+		255	NW121-15_Let_mantara,
+		256	NW163-10_Myd_sara,
+		257	NW163-11_Myd_splendens_tenebrosus,
+		258	NW163-14_Myd_richardi,
+		259	NW163-15_Myd_biliki,
+		260	NW163-16_Myd_splendens_guadalcanalensis,
+		261	NW163-4_Myd_interrupta,
+		262	NW163-5_Myd_splendens_versicolor,
+		263	NW163-6_Myd_splendens_malaitensis,
+		264	NW163-7_Myd_splendens_splendens,
+		265	NW163-8_Myd_splendens_magnificans,
+		266	NW163-9_Myd_interrupta,
+		267	NW166-9_Eno_anthedon,
+		268	NW169-5_Loh_hypnus,
+		269	NW91-5_Neo_petersi,
+		270	PM12-01_Bic_ignobilis,
+		271	PM12-18_Bic_vulgaris,
+		272	PM12-23_Bic_buea,
+		273	UK1-22_Myc_anaxias_anaxias,
+		274	UK17-24_Myc_oroatis,
+		275	UK18-16_Myd_asophis,
+		276	UK18-6_Myd_woxvoldi,
+		277	UK4-11_Myc_gotama_gotama?,
+		278	UK4-12_Myc_perseus_tabitha,
+		279	UK4-23_Myd_itys,
+		280	UK4-6_Tel_mausonia,
+		281	UK4-8_Myc_mucianus_mucianus,
+		282	UK5-12_Myd_dohertyi,
+		283	UK5-15_Tel_megamerde_opaculus,
+		284	UK5-16_Cul_kina/amoena,
+		285	UK5-1_Loh_dexamaneus,
+		286	UK5-20_Myd_mulleri,
+		287	UK5-23_Loh_susah,
+		288	UK5-2_Loh_imitatrix,
+		289	UK5-5_Loh_opthalmicus,
+		290	UK5-7_Loh_tanuki,
+		291	UK6-11_Myc_anaxias_aemate,
+		292	UK6-17_Myc_mineus_polydecta,
+		293	UK6-27_Myc_perseoides,
+		294	UK6-28_Tel_parva,
+		295	UK6-29_Myc_intermedia_intermedia,
+		296	UK7-13_Myc_gotama_charaka?,
+		297	UK7-5_Tel_malsara,
+		298	UK7-6_Myc_indermedia_distanti,
+		299	UK9-12_Myd_mehadeva,
+		300	UK9-13_Myd_mucia,
+		301	UK9-15_Myc_mynois,
+		302	UK9-18_Myd_duponcheli,
+		303	UK9-2_Myd_aethiops,
+		304	UK9-3_Myd_barbara,
+		305	UK9-4_Myd_cacodaemon_bizonata,
+		306	UK9-5_Myd_discolobus,
+		307	UK9-9_Myd_elia,
+		308	UKA128_Myc_francisca_sanatana/albofasciata,
+		309	UKA145_Myc_visala_visala,
+		310	mg35_Tel_mara,
+		311	mg44_Myc_madjicosa_madjicosa
+	;
+	TREE * UNTITLED = [&R] ((114:29.3457256,((((((43:4.140438785,191:4.140438785):13.03456314,(127:13.38845174,((231:1.329594852,101:1.329594852):4.960092078,(12:4.619428992,41:4.619428992):1.670257939):7.098764811):3.786550179):2.722138323,((214:5.228115182,215:5.228115182):11.91190602,(((294:4.391754336,310:4.391754336):4.336671133,(95:3.936226431,(93:3.524431392,283:3.524431392):0.4117950386):4.792199038):6.653376976,((244:6.026882917,242:6.026882917):8.03426504,((280:7.269844486,297:7.269844486):2.776052115,243:10.0458966):4.015251355):1.320654489):1.758218758):2.75711904):0.9998543235,((((229:4.027638785,(175:2.236987312,181:2.236987312):1.790651473):1.400879537,(190:1.636498294,182:1.636498294):3.792020028):8.887466727,164:14.31598505):1.981825304,((140:7.496328649,(179:2.490518134,236:2.490518134):5.005810514):8.476255361,((((141:7.057385546,((76:2.183830379,(166:1.018632403,160:1.018632403):1.165197976):2.600944573,(225:2.995462798,224:2.995462798):1.789312153):2.272610595):3.433154976,142:10.49054052):3.716530649,((228:12.39892803,((((161:5.428328932,(((220:3.28495917,183:3.28495917):1.513350068,(145:3.200161597,180:3.200161597):1.598147641):0.1207617428,139:4.919070981):0.5092579511):1.149558106,144:6.577887038):1.17550801,((162:6.249265655,(149:2.84551271,159:2.84551271):3.403752945):0.471987308,((157:3.154345065,177:3.154345065):2.936096394,(146:5.594190363,(165:5.199157068,(148:2.453117297,(188:1.733474273,221:1.733474273):0.7196430237):2.746039771):0.3950332948):0.4962510962):0.6308115037):1.032142085):3.826133069,219:11.57952812):0.8193999141):1.11219662,((170:6.498460321,178:6.498460321):5.055940369,((((163:4.31386449,167:4.31386449):2.999428096,223:7.313292587):0.5156916076,73:7.828984194):3.164874901,226:10.9938591):0.5605415943):1.956723962):0.6959465198):1.288741658,((44:10.26940054,(((172:2.346194892,143:2.346194892):6.609893605,((147:6.852719003,((((185:2.406942541,169:2.406942541):2.053089655,(((171:2.119983331,(137:1.934256322,46:1.934256322):0.1857270089):1.614242991,78:3.734226321):0.1976226074,(45:1.302387293,156:1.302387293):2.629461636):0.5281832671):1.017779259,(121:5.258214285,77:5.258214285):0.2195971703):0.8298748149,(176:4.472352089,222:4.472352089):1.835334181):0.5450327334):0.513673191,(174:6.357642776,(168:3.659036356,184:3.659036356):2.69860642):1.008749419):1.589696303):0.840191841,(230:1.876804334,189:1.876804334):7.919476005):0.4731202051):3.419350861,((153:3.420310526,(186:1.908603457,187:1.908603457):1.511707069):1.958052977,((227:2.668387137,158:2.668387137):0.4078375762,173:3.076224713):2.30213879):8.310387902):1.807061425):0.4767711806):0.3252263428):4.599184214):6.333079938,(((34:1.722013784,212:1.722013784):23.81369578,((((80:17.55938029,(((((235:4.549690372,(87:1.727299988,194:1.727299988):2.822390383):6.914389634,(((82:6.087882648,208:6.087882648):3.784614279,(((272:3.309876455,(85:3.141467918,79:3.141467918):0.1684085365):3.124734667,31:6.434611122):2.03518033,((26:5.030451616,(19:4.38037056,(6:2.072519123,118:2.072519123):2.307851437):0.6500810561):2.977457559,(32:7.203694054,(54:6.034028583,(99:3.010237229,(211:1.59718918,3:1.59718918):1.413048049):3.023791354):1.169665472):0.8042151212):0.4618822758):1.402705476):0.8817169717,193:10.7542139):0.7098661067):2.461497885,(((130:9.243487986,(271:4.59720586,(250:2.044979846,((25:0.9259183623,24:0.9259183623):0.5150903372,4:1.441008699):0.603971147):2.552226014):4.646282125):2.610212022,(23:8.567475363,22:8.567475363):3.286224645):0.44640549,((27:10.14268839,(117:9.36372411,(((116:4.75724261,33:4.75724261):1.320631006,(124:2.784550833,(86:2.543888042,29:2.543888042):0.2406627913):3.293322784):0.8548373703,(210:3.549494183,7:3.549494183):3.383216804):2.431013123):0.7789642832):1.685753794,(((((239:3.849354071,(72:3.701752785,2:3.701752785):0.1476012859):1.045793445,74:4.895147517):3.287564504,((201:1.547305862,198:1.547305862):0.3638670614,89:1.911172923):6.271539098):0.6916001022,(5:3.867795006,(195:3.005153088,(199:1.5018912,20:1.5018912):1.503261888):0.8626419178):5.006517117):1.305485824,36:10.17979795):1.648644239):0.4716633112):1.625472393):1.602393046,((42:4.410549501,(51:4.124886562,(248:1.353926537,71:1.353926537):2.770960025):0.2856629394):7.384624597,((13:5.396956002,(70:0.7278583659,100:0.7278583659):4.669097636):2.863396821,((209:2.903363362,(52:1.029525491,205:1.029525491):1.873837871):4.695078568,200:7.59844193):0.661910893):3.534821275):3.732796839):1.804011366,(126:9.646264538,75:9.646264538):7.685717765):0.2273979892):0.5621910759,(((28:9.271178639,(((240:4.54920392,((30:3.166221771,15:3.166221771):0.7502304054,196:3.916452177):0.6327517437):0.4544789823,((234:1.748015531,10:1.748015531):1.705268633,(197:1.185873923,83:1.185873923):2.267410241):1.550398739):1.360968095,203:6.364650997):2.906527642):3.912596553,202:13.18377519):4.076345763,(((270:3.805594773,232:3.805594773):2.61732807,((238:2.417699913,119:2.417699913):2.415315587,88:4.8330155):1.589907343):1.011143568,241:7.434066411):9.826054544):0.8614504131):0.3766764196,((17:4.958901488,(251:1.883872019,233:1.883872019):3.075029469):12.76342477,(84:5.346352901,213:5.346352901):12.37597336):0.7759215274):0.3110235481,(((207:2.207689965,53:2.207689965):5.099058866,(16:6.102327319,(((90:4.11133087,(120:1.351179927,14:1.351179927):2.760150943):0.1686772891,249:4.280008159):0.6279379821,(9:4.478813533,(115:3.10995023,((11:2.036633767,206:2.036633767):0.440771176,(50:1.840057245,125:1.840057245):0.6373476979):0.6325452863):1.368863304):0.4291326077):1.194381178):1.204421512):10.04783836,((81:4.566321613,204:4.566321613):2.829403014,((192:1.800754504,18:1.800754504):2.197618895,8:3.998373399):3.397351228):9.958862566):1.454684143):6.726438229):1.165127514,(((((106:3.001971539,94:3.001971539):3.984196627,((278:1.139274524,64:1.139274524):4.352089366,301:5.49136389):1.494804277):1.754767282,(293:6.648431704,(((112:2.082870703,(109:1.971923997,111:1.971923997):0.1109467059):0.8884591133,(((91:1.412342642,(298:0.9961443816,295:0.9961443816):0.4161982604):0.6862511356,309:2.098593778):0.3757443182,(281:1.950629407,217:1.950629407):0.5237086885):0.4969917207):1.160721902,((155:2.093015926,292:2.093015926):1.887919657,216:3.980935583):0.1511161349):2.516379986):2.092503744):13.6056177,(((308:12.44766542,(49:10.14591175,((150:1.577000855,92:1.577000855):7.539401508,((291:4.214019497,273:4.214019497):2.902486075,(21:5.895155634,(245:3.671426825,1:3.671426825):2.223728809):1.221349938):1.999896791):1.029509385):2.301753669):4.68477139,274:17.13243681):2.239832938,(218:17.22924077,(296:4.236839527,(277:3.45910518,311:3.45910518):0.7777343472):12.99240124):2.143028977):2.974283405):2.821031151,((98:12.40493902,(284:8.166678901,(103:2.828966803,96:2.828966803):5.337712098):4.238260119):11.66820014,((279:15.97518276,(((107:7.327241857,(108:4.106618471,(97:2.587329804,102:2.587329804):1.519288667):3.220623385):6.326707198,((302:8.537260165,(300:2.90125477,133:2.90125477):5.636005395):2.436932525,(((((59:5.488324563,63:5.488324563):1.279521862,(69:1.647427573,(67:1.263561368,304:1.263561368):0.3838662058):5.120418851):0.8741617086,48:7.642008133):1.713658656,(303:7.279860668,((132:0.7887386338,275:0.7887386338):5.64079467,(60:1.2447726,246:1.2447726):5.184760704):0.8503273646):2.075806121):0.7069900086,(276:9.645235492,((66:3.229191746,65:3.229191746):6.108282496,(((((299:2.343105392,((61:1.810475178,58:1.810475178):0.4262934621,55:2.23676864):0.1063367516):2.028931823,(57:1.595495336,305:1.595495336):2.776541879):3.072093184,(62:2.160648252,56:2.160648252):5.283482146):1.387468682,(47:6.760089513,306:6.760089513):2.071509567):0.06933103968,(((68:3.325920078,(38:2.591329307,105:2.591329307):0.7345907717):1.601723593,307:4.927643672):3.215056362,((37:7.058394933,((((261:2.018649217,(264:1.200178378,262:1.200178378):0.8184708395):0.3635883194,(260:1.001317776,257:1.001317776):1.38091976):0.6452802685,(((263:1.026947249,265:1.026947249):0.2270541257,256:1.254001374):1.542585894,(258:0.887324384,259:0.887324384):1.909262884):0.2309305366):0.8124434345,266:3.839961239):3.218433694):0.3901529629,(136:7.17340464,286:7.17340464):0.2751432562):0.6941521382):0.7582300864):0.436544121):0.3077612502):0.4174213061):0.9115358927):2.679756364):1.006822795,(154:13.0965884,(138:11.84528776,(151:3.245777577,113:3.245777577):8.599510182):1.251300637):1.564183454):1.31441091):2.877936274,(282:12.31169945,152:12.31169945):6.541419583):5.220020125):1.094445143):1.533252778):0.5292374266):0.8121102013,(((268:1.578177485,287:1.578177485):6.427948523,290:8.006126009):3.535137201,((247:5.920327917,((((285:3.424973894,254:3.424973894):0.6125919428,((104:1.703813888,(134:1.222693445,135:1.222693445):0.481120443):1.115270835,289:2.819084723):1.218481114):0.7003239004,129:4.737889738):0.8539083266,110:5.591798064):0.3285298533):1.488944341,((288:4.711600852,(128:1.232052895,123:1.232052895):3.479547958):0.07473260904,(131:4.327687019,(122:2.262560077,237:2.262560077):2.065126942):0.4586464423):2.622938797):4.131990952):16.5009215):1.303540895):5.725737216,(269:29.31503074,(40:24.197281,((255:4.023978715,253:4.023978715):17.44601458,(39:17.02449777,((35:1.436669296,267:1.436669296):8.303509716,252:9.740179013):7.284318755):4.445495527):2.727287708):5.11774974):5.756432075);
+END;

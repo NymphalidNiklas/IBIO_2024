@@ -1,0 +1,7 @@
+# Phylogenetic Comparative Methods
+
+Here we will learn how to model the evolution of discrete and continuous characters over a phylogenetic tree. 
+
+Modules:
+- [Continuous character evolution](./felidae_trait_evolution_ContModels_2024.md) 
+- [Discrete character evolution](./modeling_discrete_traits_2024.md)

@@ -5,9 +5,8 @@ Sridhar Halali
 
 In this tutorial, we will apply some methods which can provide us
 insights into the evolution of discrete traits. While, modelling the
-evolution of continuous traits often uses Brownian motion model or its
-variants (Brownian with trend, early burst, Ornstein-Uhlenbeck etc),
-evolution of discrete traits is modeled using the Mk and extended Mk
+evolution of continuous traits is modelled using the Brownian motion model and its
+variants, the evolution of discrete traits is modelled using the Mk (and extended Mk)
 models. We will carry out some basic analyses including fitting
 different Mk models, quantifying number and transition rates, ancestral
 state reconstructions and test for correlated evolution between two
@@ -35,9 +34,9 @@ packageVersion("phytools") # make sure you have the latest version of phytools
 
 # Importing the phylogeny and data
 
-The data comprises of habitat association and seasonal reproductive
+The data comprises habitat association and seasonal reproductive
 strategies for 40 butterfly species from Africa. In the data file, the
-‘habitat’ variable has three states- forest, fringe (species liked to
+‘habitat’ variable has three states- forest, fringe (species linked to
 forest edges or clearings) and open (species found in savannahs) and
 ‘diapause_strategy’ has three states- no diapause (species reproduce
 throughout the year), prediapause mating (mate but do not produce eggs)
@@ -107,7 +106,7 @@ plotTree(ladderize(ButterflyTree), fsize=0.2, type="fan")
 ![](modeling_discrete_traits_2024_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 ``` r
-# We have a lot of tips (311 tips) but only 40 species for which we have the trait data. To be able to proceed with the comparative analyses, we have the prune the phylogeny first so that the number of taxa in the data matches taxa in the phylogeny. Also, the tip names in the phylogeny should exactly match taxa names in the data. Lets start pruning using cool function 'name.check' in the geiger package....
+# We have a lot of tips (311 tips) but only 40 species for which we have the trait data. To be able to proceed with the comparative analyses, we have the prune the phylogeny first so that the number of taxa in the data matches taxa in the phylogeny. Also, the tip names in the phylogeny should exactly match the taxa names in the data. Let's start pruning using the 'name.check' check in the geiger package....
 
 # first, assign the first column as rownames
 butterfly_data <- butterfly_data %>% column_to_rownames(var="species")
@@ -201,7 +200,7 @@ leg <- legend(x= 26, y= 23,
 
 Fitting (extended) Mk models and ancestral state reconstructions
 
-One can fit Mk models or its variants by defining transition rates
+One can fit the Mk model or its variants by defining transition rates
 between states. The simplest Mk model is for a binary trait (i.e. two
 states let’s say a & b) where the rate of transition (q12) from a–\>b
 and b–\>a is the same. This is the equal rates (ER) model. One can then
@@ -210,20 +209,20 @@ different from that of b–\>a. This is the all rates different (ARD)
 model.
 
 When the trait has \>2 states, we can fit more interesting and
-hypothesis driven models. Apart from the equal rates (all transition
+hypothesis-driven models. Apart from the equal rates (all transition
 rates are equal) and all rates different (all transition rates are
 different), we can fit a symmetric (SYM) model where transition rates
 between adjacent states are set to equal. It is important to note that
-the number of free parameters increase rapidly (= higher model
-complexity) for SYM and ARD model. For SYM and ARD model, number of free
-parameters equal to K(K-1)/2 and K(K-1), respectively, where K is number
+the number of free parameters increases rapidly (= higher model
+complexity) for SYM and ARD models. For SYM and ARD models, the number of free
+parameters is equal to K(K-1)/2 and K(K-1), respectively, where K is the number
 of states for a given trait. Thus, a trait with three states, SYM and
 ARD model will have 3 and 6 free parameters, respectively.
 
 With this background, we’ll go ahead and fit some of these models for
 the habitat and diapause data data
 
-## First, extract ‘habitat’ and ‘diapause’ column and assign to the row names
+## First, extract ‘habitat’ and ‘diapause’ column and assign them to the row names
 
 ``` r
 habitat <- setNames(butterfly_data$habitat, rownames(butterfly_data))
@@ -332,7 +331,7 @@ plot(diapause_ARD, main= "ARD", width=T, color=T)
 # Fitting custom Mk models
 
 Now let’s fit some more interesting custom models. First, let’s test the
-hypothesis that direct transitions from forest to open habitat is not
+hypothesis that direct transitions from forest to open habitat are not
 possible or that habitat transitions occur in an ordered manner (this is
 an ‘ordered model’). So we need to restrict forest–\>open transitions
 and vice versa. We can do this by modifying the Q matrix. Second, let’s
@@ -448,22 +447,22 @@ anova(habitat_ER, habitat_SYM, habitat_ordered, habitat_directional, habitat_ARD
     ## habitat_directional -39.09624    2 82.19247 0.01777026
     ## habitat_ARD         -34.17760    6 80.35520 0.04452987
 
-Equal rates model seems to be the better fitting model, at least
+The equal rates model seems to be the better fitting model, at least
 marginally, based on the AIC score. We’ll use this model further to
 carry out ancestral reconstructions. Ancestral state reconstructions can
 be done for both continuous and discrete traits. For continuous traits,
 ancestral states can be estimated by assuming the trait is evolving via
 Brownian motion model or its variants. For discrete traits, we can use
-both maximum likelihood and Bayesian approach for reconstructing
+both maximum likelihood and Bayesian approaches for reconstructing
 ancestral states.
 
-Here, we will use both maximum likelihood (function-‘ancr’) and
-stochastic character mapping (function-‘make.simmap’) function from
-phytools. Stochastic mapping is an Bayesian approach which simulates
-diverse scenarios for our discrete character evolution on the tree (or
+Here, we will use both the maximum likelihood (function-‘ancr’) and
+stochastic character mapping (function-‘make.simmap’) functions from
+phytools. Stochastic mapping is a Bayesian approach which simulates
+diverse scenarios for our discrete character evolution on the tree (
 called stochastic maps). In this method, we can also allow changes to
-happen along the branches and not just at the nodes which is the case
-when maximum likelihood. Let’s a look at this method step by step. We’ll
+happen along the branches and not just at the nodes which is the case. 
+Let’s look at this method step by step. We’ll
 use ‘make.simmap’ function from phytools to generate stochastic maps.
 One can also use ‘corHMM’ and ‘diversitree’ R packages for stochastic
 mapping.
@@ -614,29 +613,29 @@ plot(dd)
 ![](modeling_discrete_traits_2024_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
 
 Some things to be cognizant of when fitting Mk models and doing
-ancestral reconstructions: keep an eye on model complexity or number of
-free parameters that needs to be estimated, size of phylogeny (is the
+ancestral reconstructions: keep an eye on model complexity or the number of
+free parameters that need to be estimated, size of phylogeny (is the
 phylogeny big enough to fit complex models, are particularity long or
 short branches missing), which root prior to use (phytools uses flat
-prior by default, you can try using the fitzjohn prior), tip bias (are
-some states too less frequent?)
+prior by default, you can try using the FitzJohn prior), tip bias (are
+some states too rare?)
 
 # Testing for correlated evolution between discrete binary traits
 
-We’ll test a hypotheses of whether species which occur in open habitats
-tend to undergo diapause more frequency. That is, evolution of diapause
+We’ll test a hypothesis of whether species which occur in open habitats
+tend to undergo diapause more frequently. That is, the evolution of diapause
 occurs in a habitat-dependent manner. The way to test for correlated
 evolution is by first fitting an ‘independent model’ where two traits
 evolve independently and a ‘dependent model’ where both traits evolve in
-correlated fashion. We can then look at the log likelihood scores for
-both model to see whether independent or dependent model fits better.
+a correlated fashion. We can then look at the log-likelihood or AIC score for
+both models to see whether the independent or dependent model fits better.
 We’ll use a maximum likelihood approach here using fitPgael() function
 from phytools to test for correlated evolution. It is also possible to
-carry out this analyses in a Bayesian framework in the popular program
+carry out these analyses in a Bayesian framework in the popular program
 BayesTraits (see here:
 <http://www.evolution.reading.ac.uk/BayesTraitsV4.0.1/BayesTraitsV4.0.1.html>)
 
-One pre-requisite to run this analyses is that the traits should be
+One pre-requisite to run this analysis is that the traits should be
 binary. So let’s first convert our habitat and mating strategy data into
 binary states
 
@@ -657,7 +656,7 @@ butterfly_data_binary <- butterfly_data %>%
   
   select(habitat_binary, strategy_binary)
 
-# check if merging has happenend properly. There should now be two states for each variable 
+# check if merging has happened properly. There should now be two states for each variable 
 unique(butterfly_data_binary$habitat_binary)
 ```
 
@@ -766,10 +765,10 @@ better fit than the independent model. We, thus, can say that
 reproductive strategies in these butterflies evolve in a
 habitat-dependent manner. What are transition rates telling us?
 
-However, when testing for correlated evolution, once should be careful
+However, when testing for correlated evolution, one should be careful
 about the patterns in which the traits have evolved. For example, what
-if both traits have evolved only once or are an unique evolutionary
-event, will there still be an evidence for correlated evolution? For
+if both traits have evolved only once or are a unique evolutionary
+event, will there still be evidence for correlated evolution? For
 other similar scenarios, see Figure 1 in this important paper by
 FitzJohn & Maddison (2015): The Unsolved Challenge to Phylogenetic
 Correlation Tests for Categorical Characters
@@ -894,15 +893,10 @@ plot(fit.xz, signif=2, cex.main=1.5, cex.sub=1, cex.traits=0.7, lwd=1)
 
 ![](modeling_discrete_traits_2024_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
 
-Once again we find an evidence for correlated evolution!
+Once again we find evidence for correlated evolution!
 
 A new model has been recently developed to counter such one-off events.
 Check it out here: Boyko & Beaulieu (2023):Reducing the Biases in False
 Correlations Between Discrete Characters.
 <https://academic.oup.com/sysbio/article/72/2/476/6730956?login=true>
 
-Finally, if you’re interested in learning more about the theory behind
-phylogenetic comparative methods/models, check out this book by Luke
-Harmon which is freely available. Harmon (2019)- Phylogenetic
-comparative methods: learning from trees (see here:
-<https://lukejharmon.github.io/pcm/>)

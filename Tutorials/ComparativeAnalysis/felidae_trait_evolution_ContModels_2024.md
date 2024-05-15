@@ -210,7 +210,7 @@ Let’s proceed and visualize body size through time on our tree using two
 phytools functions ‘contMap’ and ‘phenogram’. contMap reconstructs
 ancestral states at each node by assuming the Brownian motion model of
 evolution (it is possible to use other models such Early burst or
-Ornstein-Uhlenbeck model but they do not work very well). And, phenogram
+Ornstein-Uhlenbeck model). And, phenogram
 is a great way to visualize the degree of trait similarity across taxa
 (again using the Brownian Motion model).
 
@@ -277,10 +277,8 @@ phylogenetic signal is Pagel’s lambda and its value generally ranges
 from 0 to 1. A value of 1 means that closely related species have
 similar trait values (i.e. the trait evolving via the Brownian motion
 model of evolution), while the value of 0 means there is no phylogenetic
-information (i.e. that a star phylogeny can best explain trait
-evolution). Intermediate values can indicate a range of things but we
-need some additional information or analyses to infer what it means for
-trait evolution.
+information (i.e. that a star phylogeny can explain trait
+evolution).
 
 Pagel’s lambda
 
@@ -322,12 +320,12 @@ plot(male_lambda)
 
 Here, we will fit several models of trait evolution which can provide us
 some insights into the tempo of trait evolution, for example, whether
-the trait is evolving by means of drift (i.e Brownian motion model) or
-under some selection. Fitting these models can act as a good preliminary
+the trait is evolving by means of drift (i.e Brownian motion model) or other variants 
+of Brownian Motion model. Fitting these models can act as a good preliminary
 step and one can use more complex models (e.g. those that can
 incorporate rate heterogeniety) to test specific hypotheses. The models
-we are fitting here assume homogenous rate of evolution. We will use
-fitContinuous function from geiger to fit five (Brownian, Brownian with
+we are fitting here assume the homogenous rate of evolution. We will use
+fitContinuous function from geiger package to fit five (Brownian, Brownian with
 trend, Early Burst, Ornstein-Uhlenbeck & white noise) trait evolution
 models.
 
@@ -389,23 +387,24 @@ model_fits
 It seems like Brownian motion is a better fitting model (although aicc
 values are not greatly different) and white noise is the worst fitting
 model (not surprising!). Now have a look at the parameter estimate of
-the Brownian model (sigma indicates rate per unit time and z0 is the
-value of the trait at the global root).
+the Brownian model (sigma^2 indicates evolutionary rate per unit time and z0 is the
+value of the trait at the root).
 
 ## Phylogenetic generalised least squares
 
-Phylogenetic generalised least squares (PGLS) is one of the widely used
-method to test for the evolutionary correlation between the response
+Phylogenetic generalised least squares (PGLS) is a popular 
+method for testing the evolutionary correlation between the response
 variable (which here is body size) and (ecological) predictors (which
 here is habitat). PGLS is an extension of the standard least squares
-regression but can account for species evolutionary relationships
-between species. PGLS is quite flexible by allowing the user to fit
-different models of evolution (Brownian, OU, Pagel’s lambda).
+regression but can account for evolutionary relationships
+between species. PGLS is quite flexible and allows fitting
+different models of evolution (Brownian, OU, Pagel’s lambda) by altering
+the variance-covariance matrix.
 
 For this tutorial, the question that can be addressed is: does body size
 differ between forest and open habitat species?
 
-First, let’s explore distribution of body mass across habitats using
+First, let’s explore the distribution of body mass across habitats using
 simple plot
 
 ``` r
@@ -431,8 +430,8 @@ grid.arrange(female_wt_plot, male_wt_plot, ncol=2)
 ![](felidae_trait_evolution_ContModels_2024_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 It looks like forest species are slightly larger compared to those in
-open habitats but also have large variance. But it is also important to
-note here the sample size or number of species in each categories. Let’s
+open habitats but also have a large variance. But it is also important to
+note here the sample size or number of species in each category. Let’s
 fit PGLS models using ‘gls’ function in nlme package. We’ll fit
 Brownian, Ornstein-Uhlenbeck, Pagel’s lambda model and another model
 which is equivalent to non-phylogenetic or standard OLS regression. Here
@@ -481,7 +480,7 @@ AIC(felidae_BM, felidae_OU, felidae_Lambda, felidae_Lambda_0)
     ## felidae_Lambda_0  3 159.78000
 
 ``` r
-# Seems like Pagel's lambda is the best fitting and non-phylognetic (lambda=0) is the worst fitting model. Look at the summary of the best fitting model
+# Seems like Pagel's lambda is the best fitting and non-phylognetic (lambda=0) is the worst-fitting model. Look at the summary of the Lambda model
 summary(felidae_Lambda)
 ```
 

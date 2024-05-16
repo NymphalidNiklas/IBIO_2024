@@ -5,6 +5,7 @@ run_dec = function(
   library(rexpokit)
   library(cladoRcpp)
   library(BioGeoBEARS)
+  library(ape)
   trfn = treefile
   geogfn = geofile
   
@@ -146,5 +147,5 @@ plot_models = function(DEC.fit, title){
   par(mar=c(4.1,0.1,3.1,0.1),cex=0.8)
   ## plot legend and tree 
   plot_BioGeoBEARS_results(DEC.fit, analysis_titletxt=title, plotlegend=TRUE,
-                           tipcex=0.4,statecex=0.4, plotwhat = "pie")
+                           tipcex=0.6,statecex=0.4, plotwhat = "pie")
 }
